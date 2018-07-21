@@ -248,8 +248,16 @@ Partial Class Form1
         Dim InlagdLabel4 As System.Windows.Forms.Label
         Dim InlagdLabel5 As System.Windows.Forms.Label
         Dim InlagdLabel6 As System.Windows.Forms.Label
+        Dim ViktLabel As System.Windows.Forms.Label
+        Dim ViktLabel1 As System.Windows.Forms.Label
+        Dim ViktLabel2 As System.Windows.Forms.Label
+        Dim ViktLabel3 As System.Windows.Forms.Label
+        Dim ViktLabel4 As System.Windows.Forms.Label
+        Dim ViktLabel5 As System.Windows.Forms.Label
+        Dim ViktLabel6 As System.Windows.Forms.Label
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Button102 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.ArtikelnrTextBoxAcc = New System.Windows.Forms.TextBox()
         Me.AccessoarerBindingSource = New System.Windows.Forms.BindingSource(Me.components)
@@ -268,7 +276,6 @@ Partial Class Form1
         Me.Pris_mmTextBoxAcc = New System.Windows.Forms.TextBox()
         Me.Pris_umTextBoxAcc = New System.Windows.Forms.TextBox()
         Me.NoteringTextBox = New System.Windows.Forms.TextBox()
-        Me.ConditionComboBoxAcc = New System.Windows.Forms.ComboBox()
         Me.FoderComboBoxAcc = New System.Windows.Forms.ComboBox()
         Me.EN_Detaljerad_beskrivningTextBox1 = New System.Windows.Forms.TextBox()
         Me.EN_BeskrivningTextBox1 = New System.Windows.Forms.TextBox()
@@ -292,6 +299,7 @@ Partial Class Form1
         Me.ActiveradTextBoxAcc = New System.Windows.Forms.TextBox()
         Me.MåttbeskrivningTextBoxAcc = New System.Windows.Forms.TextBox()
         Me.SKATTTextBoxAcc = New System.Windows.Forms.TextBox()
+        Me.ConditionComboBoxAcc = New System.Windows.Forms.ComboBox()
         Me.LagersaldoTextBoxAcc = New System.Windows.Forms.TextBox()
         Me.CategoryTextBoxAcc = New System.Windows.Forms.TextBox()
         Me.Button26 = New System.Windows.Forms.Button()
@@ -304,6 +312,7 @@ Partial Class Form1
         Me.Button34 = New System.Windows.Forms.Button()
         Me.AccessoarerListBox = New System.Windows.Forms.ListBox()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Button103 = New System.Windows.Forms.Button()
         Me.Button55 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.ArtikelnrTextBoxByxor = New System.Windows.Forms.TextBox()
@@ -330,7 +339,6 @@ Partial Class Form1
         Me.LårmåttTextboxByxor = New System.Windows.Forms.TextBox()
         Me.FodradComboBox = New System.Windows.Forms.ComboBox()
         Me.Pris_umTextBoxByxor = New System.Windows.Forms.TextBox()
-        Me.ConditionComboBoxByxor = New System.Windows.Forms.ComboBox()
         Me.Pris_mmTextBoxByxor = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.ForvaldlevComboBox = New System.Windows.Forms.ComboBox()
@@ -362,7 +370,9 @@ Partial Class Form1
         Me.Button51 = New System.Windows.Forms.Button()
         Me.Button52 = New System.Windows.Forms.Button()
         Me.Dam_ByxorListBox = New System.Windows.Forms.ListBox()
+        Me.ConditionComboBoxByxor = New System.Windows.Forms.ComboBox()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.Button104 = New System.Windows.Forms.Button()
         Me.Button97 = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.ArtikelnrTextBoxJacka = New System.Windows.Forms.TextBox()
@@ -420,6 +430,7 @@ Partial Class Form1
         Me.Button43 = New System.Windows.Forms.Button()
         Me.Dam_JackaListBox = New System.Windows.Forms.ListBox()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.Button105 = New System.Windows.Forms.Button()
         Me.Button98 = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.ArtikelnrTextBoxKjol = New System.Windows.Forms.TextBox()
@@ -450,7 +461,6 @@ Partial Class Form1
         Me.SlitslängdTextBoxKjol = New System.Windows.Forms.TextBox()
         Me.FodradComboBoxKjol = New System.Windows.Forms.ComboBox()
         Me.Pris_mmTextBoxKjol = New System.Windows.Forms.TextBox()
-        Me.ConditionComboBoxKjol = New System.Windows.Forms.ComboBox()
         Me.Pris_um1TextBoxKjol = New System.Windows.Forms.TextBox()
         Me.ForvaldlevComboBoxKjol = New System.Windows.Forms.ComboBox()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -480,7 +490,9 @@ Partial Class Form1
         Me.Button16 = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
         Me.Dam_KjolListBox = New System.Windows.Forms.ListBox()
+        Me.ConditionComboBoxKjol = New System.Windows.Forms.ComboBox()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.Button106 = New System.Windows.Forms.Button()
         Me.Button99 = New System.Windows.Forms.Button()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.ArtikelnrTextBoxKlanning = New System.Windows.Forms.TextBox()
@@ -547,6 +559,7 @@ Partial Class Form1
         Me.Button25 = New System.Windows.Forms.Button()
         Me.Dam_KlänningListBox = New System.Windows.Forms.ListBox()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.Button107 = New System.Windows.Forms.Button()
         Me.Button100 = New System.Windows.Forms.Button()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.ArtikelnrTextBoxToppar = New System.Windows.Forms.TextBox()
@@ -576,7 +589,6 @@ Partial Class Form1
         Me.FodradComboBoxToppar = New System.Windows.Forms.ComboBox()
         Me.SV_Detaljerad_beskrivningTextBox = New System.Windows.Forms.TextBox()
         Me.Ärmlängd_utsidaTextBoxToppar = New System.Windows.Forms.TextBox()
-        Me.ConditionComboBoxToppar = New System.Windows.Forms.ComboBox()
         Me.SV_BeskrivningTextBox = New System.Windows.Forms.TextBox()
         Me.Ärmlängd_insidaTextBoxToppar = New System.Windows.Forms.TextBox()
         Me.SidlängdTextBoxToppar = New System.Windows.Forms.TextBox()
@@ -613,7 +625,9 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Dam_ToppListBoxToppar = New System.Windows.Forms.ListBox()
+        Me.ConditionComboBoxToppar = New System.Windows.Forms.ComboBox()
         Me.TabPage7 = New System.Windows.Forms.TabPage()
+        Me.Button108 = New System.Windows.Forms.Button()
         Me.Button101 = New System.Windows.Forms.Button()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.ArtikelnrTextBoxJumpsuit = New System.Windows.Forms.TextBox()
@@ -685,13 +699,13 @@ Partial Class Form1
         Me.Dam_JackaTableAdapter = New CloReg423.CLOREGDBDataSetTableAdapters.Dam_JackaTableAdapter()
         Me.Dam_ByxorTableAdapter = New CloReg423.CLOREGDBDataSetTableAdapters.Dam_ByxorTableAdapter()
         Me.Dam_JumpsuitTableAdapter = New CloReg423.CLOREGDBDataSetTableAdapters.Dam_JumpsuitTableAdapter()
-        Me.Button102 = New System.Windows.Forms.Button()
-        Me.Button103 = New System.Windows.Forms.Button()
-        Me.Button104 = New System.Windows.Forms.Button()
-        Me.Button105 = New System.Windows.Forms.Button()
-        Me.Button106 = New System.Windows.Forms.Button()
-        Me.Button107 = New System.Windows.Forms.Button()
-        Me.Button108 = New System.Windows.Forms.Button()
+        Me.ViktTextBox = New System.Windows.Forms.TextBox()
+        Me.ViktTextBox1 = New System.Windows.Forms.TextBox()
+        Me.ViktTextBox2 = New System.Windows.Forms.TextBox()
+        Me.ViktTextBox3 = New System.Windows.Forms.TextBox()
+        Me.ViktTextBox4 = New System.Windows.Forms.TextBox()
+        Me.ViktTextBox5 = New System.Windows.Forms.TextBox()
+        Me.ViktTextBox6 = New System.Windows.Forms.TextBox()
         ArtikelnrLabel = New System.Windows.Forms.Label()
         PlaggLabel = New System.Windows.Forms.Label()
         HyllaLabel = New System.Windows.Forms.Label()
@@ -917,6 +931,13 @@ Partial Class Form1
         InlagdLabel4 = New System.Windows.Forms.Label()
         InlagdLabel5 = New System.Windows.Forms.Label()
         InlagdLabel6 = New System.Windows.Forms.Label()
+        ViktLabel = New System.Windows.Forms.Label()
+        ViktLabel1 = New System.Windows.Forms.Label()
+        ViktLabel2 = New System.Windows.Forms.Label()
+        ViktLabel3 = New System.Windows.Forms.Label()
+        ViktLabel4 = New System.Windows.Forms.Label()
+        ViktLabel5 = New System.Windows.Forms.Label()
+        ViktLabel6 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -1381,7 +1402,7 @@ Partial Class Form1
         'LängdLabel
         '
         LängdLabel.AutoSize = True
-        LängdLabel.Location = New System.Drawing.Point(480, 9)
+        LängdLabel.Location = New System.Drawing.Point(480, 6)
         LängdLabel.Name = "LängdLabel"
         LängdLabel.Size = New System.Drawing.Size(58, 20)
         LängdLabel.TabIndex = 101
@@ -1390,7 +1411,7 @@ Partial Class Form1
         'Längd_framLabel
         '
         Längd_framLabel.AutoSize = True
-        Längd_framLabel.Location = New System.Drawing.Point(444, 41)
+        Längd_framLabel.Location = New System.Drawing.Point(444, 38)
         Längd_framLabel.Name = "Längd_framLabel"
         Längd_framLabel.Size = New System.Drawing.Size(94, 20)
         Längd_framLabel.TabIndex = 102
@@ -1399,7 +1420,7 @@ Partial Class Form1
         'Längd_bakLabel
         '
         Längd_bakLabel.AutoSize = True
-        Längd_bakLabel.Location = New System.Drawing.Point(450, 73)
+        Längd_bakLabel.Location = New System.Drawing.Point(450, 70)
         Längd_bakLabel.Name = "Längd_bakLabel"
         Längd_bakLabel.Size = New System.Drawing.Size(88, 20)
         Längd_bakLabel.TabIndex = 103
@@ -2083,7 +2104,7 @@ Partial Class Form1
         'Yttre_ärmLabel1
         '
         Yttre_ärmLabel1.AutoSize = True
-        Yttre_ärmLabel1.Location = New System.Drawing.Point(435, 9)
+        Yttre_ärmLabel1.Location = New System.Drawing.Point(226, 105)
         Yttre_ärmLabel1.Name = "Yttre_ärmLabel1"
         Yttre_ärmLabel1.Size = New System.Drawing.Size(79, 20)
         Yttre_ärmLabel1.TabIndex = 106
@@ -2092,7 +2113,7 @@ Partial Class Form1
         'Inre_ärmLabel1
         '
         Inre_ärmLabel1.AutoSize = True
-        Inre_ärmLabel1.Location = New System.Drawing.Point(442, 41)
+        Inre_ärmLabel1.Location = New System.Drawing.Point(233, 137)
         Inre_ärmLabel1.Name = "Inre_ärmLabel1"
         Inre_ärmLabel1.Size = New System.Drawing.Size(72, 20)
         Inre_ärmLabel1.TabIndex = 107
@@ -2101,7 +2122,7 @@ Partial Class Form1
         'SidlängdLabel2
         '
         SidlängdLabel2.AutoSize = True
-        SidlängdLabel2.Location = New System.Drawing.Point(439, 73)
+        SidlängdLabel2.Location = New System.Drawing.Point(439, 9)
         SidlängdLabel2.Name = "SidlängdLabel2"
         SidlängdLabel2.Size = New System.Drawing.Size(75, 20)
         SidlängdLabel2.TabIndex = 108
@@ -2110,7 +2131,7 @@ Partial Class Form1
         'RygglängdLabel2
         '
         RygglängdLabel2.AutoSize = True
-        RygglängdLabel2.Location = New System.Drawing.Point(425, 105)
+        RygglängdLabel2.Location = New System.Drawing.Point(425, 41)
         RygglängdLabel2.Name = "RygglängdLabel2"
         RygglängdLabel2.Size = New System.Drawing.Size(89, 20)
         RygglängdLabel2.TabIndex = 109
@@ -2119,7 +2140,7 @@ Partial Class Form1
         'FodradLabel3
         '
         FodradLabel3.AutoSize = True
-        FodradLabel3.Location = New System.Drawing.Point(450, 169)
+        FodradLabel3.Location = New System.Drawing.Point(450, 105)
         FodradLabel3.Name = "FodradLabel3"
         FodradLabel3.Size = New System.Drawing.Size(64, 20)
         FodradLabel3.TabIndex = 110
@@ -2128,7 +2149,7 @@ Partial Class Form1
         'SlitslängdLabel1
         '
         SlitslängdLabel1.AutoSize = True
-        SlitslängdLabel1.Location = New System.Drawing.Point(432, 137)
+        SlitslängdLabel1.Location = New System.Drawing.Point(432, 73)
         SlitslängdLabel1.Name = "SlitslängdLabel1"
         SlitslängdLabel1.Size = New System.Drawing.Size(82, 20)
         SlitslängdLabel1.TabIndex = 111
@@ -2155,7 +2176,7 @@ Partial Class Form1
         'Pris_mmLabel4
         '
         Pris_mmLabel4.AutoSize = True
-        Pris_mmLabel4.Location = New System.Drawing.Point(445, 236)
+        Pris_mmLabel4.Location = New System.Drawing.Point(445, 172)
         Pris_mmLabel4.Name = "Pris_mmLabel4"
         Pris_mmLabel4.Size = New System.Drawing.Size(69, 20)
         Pris_mmLabel4.TabIndex = 113
@@ -2164,7 +2185,7 @@ Partial Class Form1
         'Pris_umLabel3
         '
         Pris_umLabel3.AutoSize = True
-        Pris_umLabel3.Location = New System.Drawing.Point(449, 268)
+        Pris_umLabel3.Location = New System.Drawing.Point(449, 204)
         Pris_umLabel3.Name = "Pris_umLabel3"
         Pris_umLabel3.Size = New System.Drawing.Size(65, 20)
         Pris_umLabel3.TabIndex = 114
@@ -2218,7 +2239,7 @@ Partial Class Form1
         'BilderLabel4
         '
         BilderLabel4.AutoSize = True
-        BilderLabel4.Location = New System.Drawing.Point(928, 160)
+        BilderLabel4.Location = New System.Drawing.Point(903, 160)
         BilderLabel4.Name = "BilderLabel4"
         BilderLabel4.Size = New System.Drawing.Size(53, 20)
         BilderLabel4.TabIndex = 120
@@ -2227,7 +2248,7 @@ Partial Class Form1
         'TaggarLabel4
         '
         TaggarLabel4.AutoSize = True
-        TaggarLabel4.Location = New System.Drawing.Point(928, 189)
+        TaggarLabel4.Location = New System.Drawing.Point(903, 189)
         TaggarLabel4.Name = "TaggarLabel4"
         TaggarLabel4.Size = New System.Drawing.Size(63, 20)
         TaggarLabel4.TabIndex = 121
@@ -2236,7 +2257,7 @@ Partial Class Form1
         'SV_BeskrivningLabel2
         '
         SV_BeskrivningLabel2.AutoSize = True
-        SV_BeskrivningLabel2.Location = New System.Drawing.Point(115, 301)
+        SV_BeskrivningLabel2.Location = New System.Drawing.Point(116, 326)
         SV_BeskrivningLabel2.Name = "SV_BeskrivningLabel2"
         SV_BeskrivningLabel2.Size = New System.Drawing.Size(120, 20)
         SV_BeskrivningLabel2.TabIndex = 125
@@ -2245,7 +2266,7 @@ Partial Class Form1
         'SV_Detaljerad_beskrivningLabel2
         '
         SV_Detaljerad_beskrivningLabel2.AutoSize = True
-        SV_Detaljerad_beskrivningLabel2.Location = New System.Drawing.Point(40, 333)
+        SV_Detaljerad_beskrivningLabel2.Location = New System.Drawing.Point(41, 358)
         SV_Detaljerad_beskrivningLabel2.Name = "SV_Detaljerad_beskrivningLabel2"
         SV_Detaljerad_beskrivningLabel2.Size = New System.Drawing.Size(195, 20)
         SV_Detaljerad_beskrivningLabel2.TabIndex = 126
@@ -2254,7 +2275,7 @@ Partial Class Form1
         'EN_BeskrivningLabel2
         '
         EN_BeskrivningLabel2.AutoSize = True
-        EN_BeskrivningLabel2.Location = New System.Drawing.Point(115, 443)
+        EN_BeskrivningLabel2.Location = New System.Drawing.Point(115, 465)
         EN_BeskrivningLabel2.Name = "EN_BeskrivningLabel2"
         EN_BeskrivningLabel2.Size = New System.Drawing.Size(120, 20)
         EN_BeskrivningLabel2.TabIndex = 127
@@ -2263,7 +2284,7 @@ Partial Class Form1
         'EN_Detaljerad_beskrivningLabel2
         '
         EN_Detaljerad_beskrivningLabel2.AutoSize = True
-        EN_Detaljerad_beskrivningLabel2.Location = New System.Drawing.Point(40, 475)
+        EN_Detaljerad_beskrivningLabel2.Location = New System.Drawing.Point(40, 497)
         EN_Detaljerad_beskrivningLabel2.Name = "EN_Detaljerad_beskrivningLabel2"
         EN_Detaljerad_beskrivningLabel2.Size = New System.Drawing.Size(195, 20)
         EN_Detaljerad_beskrivningLabel2.TabIndex = 128
@@ -2272,7 +2293,7 @@ Partial Class Form1
         'SV_BeskrivningLabel3
         '
         SV_BeskrivningLabel3.AutoSize = True
-        SV_BeskrivningLabel3.Location = New System.Drawing.Point(144, 271)
+        SV_BeskrivningLabel3.Location = New System.Drawing.Point(141, 301)
         SV_BeskrivningLabel3.Name = "SV_BeskrivningLabel3"
         SV_BeskrivningLabel3.Size = New System.Drawing.Size(120, 20)
         SV_BeskrivningLabel3.TabIndex = 120
@@ -2281,7 +2302,7 @@ Partial Class Form1
         'SV_Detaljerad_beskrivningLabel3
         '
         SV_Detaljerad_beskrivningLabel3.AutoSize = True
-        SV_Detaljerad_beskrivningLabel3.Location = New System.Drawing.Point(70, 303)
+        SV_Detaljerad_beskrivningLabel3.Location = New System.Drawing.Point(67, 333)
         SV_Detaljerad_beskrivningLabel3.Name = "SV_Detaljerad_beskrivningLabel3"
         SV_Detaljerad_beskrivningLabel3.Size = New System.Drawing.Size(195, 20)
         SV_Detaljerad_beskrivningLabel3.TabIndex = 121
@@ -2290,7 +2311,7 @@ Partial Class Form1
         'EN_BeskrivningLabel3
         '
         EN_BeskrivningLabel3.AutoSize = True
-        EN_BeskrivningLabel3.Location = New System.Drawing.Point(144, 409)
+        EN_BeskrivningLabel3.Location = New System.Drawing.Point(141, 439)
         EN_BeskrivningLabel3.Name = "EN_BeskrivningLabel3"
         EN_BeskrivningLabel3.Size = New System.Drawing.Size(120, 20)
         EN_BeskrivningLabel3.TabIndex = 122
@@ -2299,7 +2320,7 @@ Partial Class Form1
         'EN_Detaljerad_beskrivningLabel3
         '
         EN_Detaljerad_beskrivningLabel3.AutoSize = True
-        EN_Detaljerad_beskrivningLabel3.Location = New System.Drawing.Point(69, 441)
+        EN_Detaljerad_beskrivningLabel3.Location = New System.Drawing.Point(66, 471)
         EN_Detaljerad_beskrivningLabel3.Name = "EN_Detaljerad_beskrivningLabel3"
         EN_Detaljerad_beskrivningLabel3.Size = New System.Drawing.Size(195, 20)
         EN_Detaljerad_beskrivningLabel3.TabIndex = 123
@@ -2425,7 +2446,7 @@ Partial Class Form1
         'Pris_umLabel4
         '
         Pris_umLabel4.AutoSize = True
-        Pris_umLabel4.Location = New System.Drawing.Point(452, 73)
+        Pris_umLabel4.Location = New System.Drawing.Point(452, 141)
         Pris_umLabel4.Name = "Pris_umLabel4"
         Pris_umLabel4.Size = New System.Drawing.Size(65, 20)
         Pris_umLabel4.TabIndex = 112
@@ -2434,7 +2455,7 @@ Partial Class Form1
         'Pris_mmLabel5
         '
         Pris_mmLabel5.AutoSize = True
-        Pris_mmLabel5.Location = New System.Drawing.Point(448, 41)
+        Pris_mmLabel5.Location = New System.Drawing.Point(448, 109)
         Pris_mmLabel5.Name = "Pris_mmLabel5"
         Pris_mmLabel5.Size = New System.Drawing.Size(69, 20)
         Pris_mmLabel5.TabIndex = 113
@@ -2470,7 +2491,7 @@ Partial Class Form1
         'FodradLabel4
         '
         FodradLabel4.AutoSize = True
-        FodradLabel4.Location = New System.Drawing.Point(453, 105)
+        FodradLabel4.Location = New System.Drawing.Point(453, 41)
         FodradLabel4.Name = "FodradLabel4"
         FodradLabel4.Size = New System.Drawing.Size(64, 20)
         FodradLabel4.TabIndex = 118
@@ -2713,7 +2734,7 @@ Partial Class Form1
         'SV_BeskrivningLabel4
         '
         SV_BeskrivningLabel4.AutoSize = True
-        SV_BeskrivningLabel4.Location = New System.Drawing.Point(131, 279)
+        SV_BeskrivningLabel4.Location = New System.Drawing.Point(136, 304)
         SV_BeskrivningLabel4.Name = "SV_BeskrivningLabel4"
         SV_BeskrivningLabel4.Size = New System.Drawing.Size(120, 20)
         SV_BeskrivningLabel4.TabIndex = 117
@@ -2722,7 +2743,7 @@ Partial Class Form1
         'SV_Detaljerad_beskrivningLabel4
         '
         SV_Detaljerad_beskrivningLabel4.AutoSize = True
-        SV_Detaljerad_beskrivningLabel4.Location = New System.Drawing.Point(56, 311)
+        SV_Detaljerad_beskrivningLabel4.Location = New System.Drawing.Point(61, 336)
         SV_Detaljerad_beskrivningLabel4.Name = "SV_Detaljerad_beskrivningLabel4"
         SV_Detaljerad_beskrivningLabel4.Size = New System.Drawing.Size(195, 20)
         SV_Detaljerad_beskrivningLabel4.TabIndex = 118
@@ -2866,7 +2887,7 @@ Partial Class Form1
         'NoteringLabel2
         '
         NoteringLabel2.AutoSize = True
-        NoteringLabel2.Location = New System.Drawing.Point(471, 139)
+        NoteringLabel2.Location = New System.Drawing.Point(471, 75)
         NoteringLabel2.Name = "NoteringLabel2"
         NoteringLabel2.Size = New System.Drawing.Size(46, 20)
         NoteringLabel2.TabIndex = 135
@@ -2875,7 +2896,7 @@ Partial Class Form1
         'NoteringLabel3
         '
         NoteringLabel3.AutoSize = True
-        NoteringLabel3.Location = New System.Drawing.Point(468, 202)
+        NoteringLabel3.Location = New System.Drawing.Point(468, 138)
         NoteringLabel3.Name = "NoteringLabel3"
         NoteringLabel3.Size = New System.Drawing.Size(46, 20)
         NoteringLabel3.TabIndex = 132
@@ -3049,8 +3070,20 @@ Partial Class Form1
         Me.TabPage1.Text = "Accessoarer"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
+        'Button102
+        '
+        Me.Button102.BackColor = System.Drawing.Color.Green
+        Me.Button102.Location = New System.Drawing.Point(7, 485)
+        Me.Button102.Name = "Button102"
+        Me.Button102.Size = New System.Drawing.Size(151, 32)
+        Me.Button102.TabIndex = 144
+        Me.Button102.Text = "Redigera"
+        Me.Button102.UseVisualStyleBackColor = False
+        '
         'Panel1
         '
+        Me.Panel1.Controls.Add(ViktLabel)
+        Me.Panel1.Controls.Add(Me.ViktTextBox)
         Me.Panel1.Controls.Add(Me.ArtikelnrTextBoxAcc)
         Me.Panel1.Controls.Add(Me.TypTextBoxAcc)
         Me.Panel1.Controls.Add(TypLabel)
@@ -3090,7 +3123,7 @@ Partial Class Form1
         Me.Panel1.Controls.Add(SV_BeskrivningLabel1)
         Me.Panel1.Location = New System.Drawing.Point(164, 13)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(652, 504)
+        Me.Panel1.Size = New System.Drawing.Size(635, 504)
         Me.Panel1.TabIndex = 143
         '
         'ArtikelnrTextBoxAcc
@@ -3226,15 +3259,6 @@ Partial Class Form1
         Me.NoteringTextBox.Size = New System.Drawing.Size(100, 26)
         Me.NoteringTextBox.TabIndex = 124
         '
-        'ConditionComboBoxAcc
-        '
-        Me.ConditionComboBoxAcc.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Condition", True))
-        Me.ConditionComboBoxAcc.FormattingEnabled = True
-        Me.ConditionComboBoxAcc.Location = New System.Drawing.Point(1165, 253)
-        Me.ConditionComboBoxAcc.Name = "ConditionComboBoxAcc"
-        Me.ConditionComboBoxAcc.Size = New System.Drawing.Size(100, 28)
-        Me.ConditionComboBoxAcc.TabIndex = 111
-        '
         'FoderComboBoxAcc
         '
         Me.FoderComboBoxAcc.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Foder", True))
@@ -3267,7 +3291,7 @@ Partial Class Form1
         '
         Me.SV_Detaljerad_beskrivningTextBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "SV Detaljerad beskrivning", True))
         Me.SV_Detaljerad_beskrivningTextBox1.Location = New System.Drawing.Point(224, 240)
-        Me.SV_Detaljerad_beskrivningTextBox1.MaxLength = 254
+        Me.SV_Detaljerad_beskrivningTextBox1.MaxLength = 255
         Me.SV_Detaljerad_beskrivningTextBox1.Multiline = True
         Me.SV_Detaljerad_beskrivningTextBox1.Name = "SV_Detaljerad_beskrivningTextBox1"
         Me.SV_Detaljerad_beskrivningTextBox1.Size = New System.Drawing.Size(401, 100)
@@ -3441,6 +3465,15 @@ Partial Class Form1
         Me.SKATTTextBoxAcc.Size = New System.Drawing.Size(100, 26)
         Me.SKATTTextBoxAcc.TabIndex = 114
         '
+        'ConditionComboBoxAcc
+        '
+        Me.ConditionComboBoxAcc.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Condition", True))
+        Me.ConditionComboBoxAcc.FormattingEnabled = True
+        Me.ConditionComboBoxAcc.Location = New System.Drawing.Point(1165, 253)
+        Me.ConditionComboBoxAcc.Name = "ConditionComboBoxAcc"
+        Me.ConditionComboBoxAcc.Size = New System.Drawing.Size(100, 28)
+        Me.ConditionComboBoxAcc.TabIndex = 111
+        '
         'LagersaldoTextBoxAcc
         '
         Me.LagersaldoTextBoxAcc.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Lagersaldo", True))
@@ -3599,11 +3632,21 @@ Partial Class Form1
         Me.TabPage2.Text = "Dam Byxor"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
+        'Button103
+        '
+        Me.Button103.BackColor = System.Drawing.Color.Green
+        Me.Button103.Location = New System.Drawing.Point(10, 483)
+        Me.Button103.Name = "Button103"
+        Me.Button103.Size = New System.Drawing.Size(151, 32)
+        Me.Button103.TabIndex = 151
+        Me.Button103.Text = "Redigera"
+        Me.Button103.UseVisualStyleBackColor = False
+        '
         'Button55
         '
         Me.Button55.BackColor = System.Drawing.Color.Yellow
         Me.Button55.Enabled = False
-        Me.Button55.Location = New System.Drawing.Point(10, 445)
+        Me.Button55.Location = New System.Drawing.Point(7, 445)
         Me.Button55.Name = "Button55"
         Me.Button55.Size = New System.Drawing.Size(151, 32)
         Me.Button55.TabIndex = 150
@@ -3612,6 +3655,8 @@ Partial Class Form1
         '
         'Panel2
         '
+        Me.Panel2.Controls.Add(ViktLabel1)
+        Me.Panel2.Controls.Add(Me.ViktTextBox1)
         Me.Panel2.Controls.Add(ArtikelnrLabel5)
         Me.Panel2.Controls.Add(Me.ArtikelnrTextBoxByxor)
         Me.Panel2.Controls.Add(Me.HyllaTextBoxByxor)
@@ -3720,7 +3765,7 @@ Partial Class Form1
         Me.NoteringComboBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Notering", True))
         Me.NoteringComboBox1.FormattingEnabled = True
         Me.NoteringComboBox1.Items.AddRange(New Object() {"", "Svart", "Grå", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
-        Me.NoteringComboBox1.Location = New System.Drawing.Point(523, 136)
+        Me.NoteringComboBox1.Location = New System.Drawing.Point(523, 72)
         Me.NoteringComboBox1.Name = "NoteringComboBox1"
         Me.NoteringComboBox1.Size = New System.Drawing.Size(100, 28)
         Me.NoteringComboBox1.TabIndex = 136
@@ -3729,6 +3774,7 @@ Partial Class Form1
         '
         Me.SV_Detaljerad_beskrivningTextBox4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "SV Detaljerad beskrivning", True))
         Me.SV_Detaljerad_beskrivningTextBox4.Location = New System.Drawing.Point(254, 269)
+        Me.SV_Detaljerad_beskrivningTextBox4.MaxLength = 255
         Me.SV_Detaljerad_beskrivningTextBox4.Multiline = True
         Me.SV_Detaljerad_beskrivningTextBox4.Name = "SV_Detaljerad_beskrivningTextBox4"
         Me.SV_Detaljerad_beskrivningTextBox4.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -3845,7 +3891,7 @@ Partial Class Form1
         Me.FodradComboBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Fodrad", True))
         Me.FodradComboBox.FormattingEnabled = True
         Me.FodradComboBox.Items.AddRange(New Object() {"Fram", "Bak", "Helfodrad", "Halvfodrad", "Topp", "Underdel", "Ja", "Nej"})
-        Me.FodradComboBox.Location = New System.Drawing.Point(523, 102)
+        Me.FodradComboBox.Location = New System.Drawing.Point(523, 38)
         Me.FodradComboBox.Name = "FodradComboBox"
         Me.FodradComboBox.Size = New System.Drawing.Size(100, 28)
         Me.FodradComboBox.TabIndex = 119
@@ -3853,26 +3899,16 @@ Partial Class Form1
         'Pris_umTextBoxByxor
         '
         Me.Pris_umTextBoxByxor.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Pris um", True))
-        Me.Pris_umTextBoxByxor.Location = New System.Drawing.Point(523, 70)
+        Me.Pris_umTextBoxByxor.Location = New System.Drawing.Point(523, 138)
         Me.Pris_umTextBoxByxor.Name = "Pris_umTextBoxByxor"
         Me.Pris_umTextBoxByxor.ReadOnly = True
         Me.Pris_umTextBoxByxor.Size = New System.Drawing.Size(100, 26)
         Me.Pris_umTextBoxByxor.TabIndex = 113
         '
-        'ConditionComboBoxByxor
-        '
-        Me.ConditionComboBoxByxor.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Condition", True))
-        Me.ConditionComboBoxByxor.FormattingEnabled = True
-        Me.ConditionComboBoxByxor.Items.AddRange(New Object() {"Svart", "Grå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
-        Me.ConditionComboBoxByxor.Location = New System.Drawing.Point(1126, 251)
-        Me.ConditionComboBoxByxor.Name = "ConditionComboBoxByxor"
-        Me.ConditionComboBoxByxor.Size = New System.Drawing.Size(100, 28)
-        Me.ConditionComboBoxByxor.TabIndex = 118
-        '
         'Pris_mmTextBoxByxor
         '
         Me.Pris_mmTextBoxByxor.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Pris mm", True))
-        Me.Pris_mmTextBoxByxor.Location = New System.Drawing.Point(523, 38)
+        Me.Pris_mmTextBoxByxor.Location = New System.Drawing.Point(523, 106)
         Me.Pris_mmTextBoxByxor.Name = "Pris_mmTextBoxByxor"
         Me.Pris_mmTextBoxByxor.Size = New System.Drawing.Size(100, 26)
         Me.Pris_mmTextBoxByxor.TabIndex = 114
@@ -3891,7 +3927,7 @@ Partial Class Form1
         Me.ForvaldlevComboBox.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ForvaldlevComboBox.FormattingEnabled = True
         Me.ForvaldlevComboBox.Items.AddRange(New Object() {"", "Gåva familj / vänner", "Marknad", "Myrorna", "ReRags", "The Vintage Wholesale Company", "Tick Tock Vintage", "Glass Onion Vintage"})
-        Me.ForvaldlevComboBox.Location = New System.Drawing.Point(10, 410)
+        Me.ForvaldlevComboBox.Location = New System.Drawing.Point(6, 413)
         Me.ForvaldlevComboBox.Name = "ForvaldlevComboBox"
         Me.ForvaldlevComboBox.Size = New System.Drawing.Size(151, 28)
         Me.ForvaldlevComboBox.TabIndex = 147
@@ -3925,7 +3961,7 @@ Partial Class Form1
         'ForvaldhyllaTextBoxByxor
         '
         Me.ForvaldhyllaTextBoxByxor.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.ForvaldhyllaTextBoxByxor.Location = New System.Drawing.Point(10, 358)
+        Me.ForvaldhyllaTextBoxByxor.Location = New System.Drawing.Point(7, 357)
         Me.ForvaldhyllaTextBoxByxor.Name = "ForvaldhyllaTextBoxByxor"
         Me.ForvaldhyllaTextBoxByxor.Size = New System.Drawing.Size(151, 26)
         Me.ForvaldhyllaTextBoxByxor.TabIndex = 142
@@ -3962,7 +3998,7 @@ Partial Class Form1
         Me.ComboBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"Byxor", "Leggings", "Shorts"})
-        Me.ComboBox2.Location = New System.Drawing.Point(6, 301)
+        Me.ComboBox2.Location = New System.Drawing.Point(7, 301)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(151, 28)
         Me.ComboBox2.TabIndex = 132
@@ -4148,6 +4184,16 @@ Partial Class Form1
         Me.Dam_ByxorListBox.TabIndex = 0
         Me.Dam_ByxorListBox.ValueMember = "ID"
         '
+        'ConditionComboBoxByxor
+        '
+        Me.ConditionComboBoxByxor.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Condition", True))
+        Me.ConditionComboBoxByxor.FormattingEnabled = True
+        Me.ConditionComboBoxByxor.Items.AddRange(New Object() {"Svart", "Grå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
+        Me.ConditionComboBoxByxor.Location = New System.Drawing.Point(1126, 251)
+        Me.ConditionComboBoxByxor.Name = "ConditionComboBoxByxor"
+        Me.ConditionComboBoxByxor.Size = New System.Drawing.Size(100, 28)
+        Me.ConditionComboBoxByxor.TabIndex = 118
+        '
         'TabPage3
         '
         Me.TabPage3.AutoScroll = True
@@ -4199,6 +4245,16 @@ Partial Class Form1
         Me.TabPage3.Text = "Dam Jacka"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
+        'Button104
+        '
+        Me.Button104.BackColor = System.Drawing.Color.Green
+        Me.Button104.Location = New System.Drawing.Point(6, 428)
+        Me.Button104.Name = "Button104"
+        Me.Button104.Size = New System.Drawing.Size(151, 32)
+        Me.Button104.TabIndex = 147
+        Me.Button104.Text = "Redigera"
+        Me.Button104.UseVisualStyleBackColor = False
+        '
         'Button97
         '
         Me.Button97.BackColor = System.Drawing.Color.Yellow
@@ -4212,6 +4268,8 @@ Partial Class Form1
         '
         'Panel3
         '
+        Me.Panel3.Controls.Add(ViktLabel2)
+        Me.Panel3.Controls.Add(Me.ViktTextBox2)
         Me.Panel3.Controls.Add(Me.ArtikelnrTextBoxJacka)
         Me.Panel3.Controls.Add(ArtikelnrLabel4)
         Me.Panel3.Controls.Add(Me.HyllaTextBoxJacka)
@@ -4259,7 +4317,7 @@ Partial Class Form1
         Me.Panel3.Enabled = False
         Me.Panel3.Location = New System.Drawing.Point(163, 13)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(653, 472)
+        Me.Panel3.Size = New System.Drawing.Size(628, 478)
         Me.Panel3.TabIndex = 145
         '
         'ArtikelnrTextBoxJacka
@@ -4313,7 +4371,7 @@ Partial Class Form1
         Me.NoteringComboBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Notering", True))
         Me.NoteringComboBox2.FormattingEnabled = True
         Me.NoteringComboBox2.Items.AddRange(New Object() {"", "Svart", "Grå", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
-        Me.NoteringComboBox2.Location = New System.Drawing.Point(520, 199)
+        Me.NoteringComboBox2.Location = New System.Drawing.Point(520, 135)
         Me.NoteringComboBox2.Name = "NoteringComboBox2"
         Me.NoteringComboBox2.Size = New System.Drawing.Size(100, 28)
         Me.NoteringComboBox2.TabIndex = 133
@@ -4322,6 +4380,7 @@ Partial Class Form1
         '
         Me.SV_Detaljerad_beskrivningTextBox5.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "SV Detaljerad beskrivning", True))
         Me.SV_Detaljerad_beskrivningTextBox5.Location = New System.Drawing.Point(247, 335)
+        Me.SV_Detaljerad_beskrivningTextBox5.MaxLength = 255
         Me.SV_Detaljerad_beskrivningTextBox5.Multiline = True
         Me.SV_Detaljerad_beskrivningTextBox5.Name = "SV_Detaljerad_beskrivningTextBox5"
         Me.SV_Detaljerad_beskrivningTextBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -4406,7 +4465,7 @@ Partial Class Form1
         'Yttre_ärmTextBoxJacka
         '
         Me.Yttre_ärmTextBoxJacka.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Yttre ärm", True))
-        Me.Yttre_ärmTextBoxJacka.Location = New System.Drawing.Point(520, 6)
+        Me.Yttre_ärmTextBoxJacka.Location = New System.Drawing.Point(311, 102)
         Me.Yttre_ärmTextBoxJacka.Name = "Yttre_ärmTextBoxJacka"
         Me.Yttre_ärmTextBoxJacka.Size = New System.Drawing.Size(100, 26)
         Me.Yttre_ärmTextBoxJacka.TabIndex = 107
@@ -4414,7 +4473,7 @@ Partial Class Form1
         'Inre_ärmTextBoxJacka
         '
         Me.Inre_ärmTextBoxJacka.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Inre ärm", True))
-        Me.Inre_ärmTextBoxJacka.Location = New System.Drawing.Point(520, 38)
+        Me.Inre_ärmTextBoxJacka.Location = New System.Drawing.Point(311, 134)
         Me.Inre_ärmTextBoxJacka.Name = "Inre_ärmTextBoxJacka"
         Me.Inre_ärmTextBoxJacka.Size = New System.Drawing.Size(100, 26)
         Me.Inre_ärmTextBoxJacka.TabIndex = 108
@@ -4422,7 +4481,7 @@ Partial Class Form1
         'SidlängdTextBoxJacka
         '
         Me.SidlängdTextBoxJacka.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Sidlängd", True))
-        Me.SidlängdTextBoxJacka.Location = New System.Drawing.Point(520, 70)
+        Me.SidlängdTextBoxJacka.Location = New System.Drawing.Point(520, 6)
         Me.SidlängdTextBoxJacka.Name = "SidlängdTextBoxJacka"
         Me.SidlängdTextBoxJacka.Size = New System.Drawing.Size(100, 26)
         Me.SidlängdTextBoxJacka.TabIndex = 109
@@ -4430,7 +4489,7 @@ Partial Class Form1
         'RygglängdTextBoxJacka
         '
         Me.RygglängdTextBoxJacka.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Rygglängd", True))
-        Me.RygglängdTextBoxJacka.Location = New System.Drawing.Point(520, 102)
+        Me.RygglängdTextBoxJacka.Location = New System.Drawing.Point(520, 38)
         Me.RygglängdTextBoxJacka.Name = "RygglängdTextBoxJacka"
         Me.RygglängdTextBoxJacka.Size = New System.Drawing.Size(100, 26)
         Me.RygglängdTextBoxJacka.TabIndex = 110
@@ -4440,7 +4499,7 @@ Partial Class Form1
         Me.FodradComboBoxJacka.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Fodrad", True))
         Me.FodradComboBoxJacka.FormattingEnabled = True
         Me.FodradComboBoxJacka.Items.AddRange(New Object() {"Fram", "Bak", "Helfodrad", "Halvfodrad", "Topp", "Underdel", "Ja", "Nej"})
-        Me.FodradComboBoxJacka.Location = New System.Drawing.Point(520, 166)
+        Me.FodradComboBoxJacka.Location = New System.Drawing.Point(520, 102)
         Me.FodradComboBoxJacka.Name = "FodradComboBoxJacka"
         Me.FodradComboBoxJacka.Size = New System.Drawing.Size(100, 28)
         Me.FodradComboBoxJacka.TabIndex = 111
@@ -4448,7 +4507,7 @@ Partial Class Form1
         'SlitslängdTextBoxJacka
         '
         Me.SlitslängdTextBoxJacka.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Slitslängd", True))
-        Me.SlitslängdTextBoxJacka.Location = New System.Drawing.Point(520, 134)
+        Me.SlitslängdTextBoxJacka.Location = New System.Drawing.Point(520, 70)
         Me.SlitslängdTextBoxJacka.Name = "SlitslängdTextBoxJacka"
         Me.SlitslängdTextBoxJacka.Size = New System.Drawing.Size(100, 26)
         Me.SlitslängdTextBoxJacka.TabIndex = 112
@@ -4456,7 +4515,7 @@ Partial Class Form1
         'Pris_mmTextBoxJacka
         '
         Me.Pris_mmTextBoxJacka.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Pris mm", True))
-        Me.Pris_mmTextBoxJacka.Location = New System.Drawing.Point(520, 233)
+        Me.Pris_mmTextBoxJacka.Location = New System.Drawing.Point(520, 169)
         Me.Pris_mmTextBoxJacka.Name = "Pris_mmTextBoxJacka"
         Me.Pris_mmTextBoxJacka.Size = New System.Drawing.Size(100, 26)
         Me.Pris_mmTextBoxJacka.TabIndex = 114
@@ -4464,7 +4523,7 @@ Partial Class Form1
         'Pris_umTextBoxJacka
         '
         Me.Pris_umTextBoxJacka.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Pris um", True))
-        Me.Pris_umTextBoxJacka.Location = New System.Drawing.Point(520, 265)
+        Me.Pris_umTextBoxJacka.Location = New System.Drawing.Point(520, 201)
         Me.Pris_umTextBoxJacka.Name = "Pris_umTextBoxJacka"
         Me.Pris_umTextBoxJacka.ReadOnly = True
         Me.Pris_umTextBoxJacka.Size = New System.Drawing.Size(100, 26)
@@ -4516,7 +4575,7 @@ Partial Class Form1
         '
         'Button92
         '
-        Me.Button92.Location = New System.Drawing.Point(822, 13)
+        Me.Button92.Location = New System.Drawing.Point(797, 13)
         Me.Button92.Name = "Button92"
         Me.Button92.Size = New System.Drawing.Size(100, 50)
         Me.Button92.TabIndex = 138
@@ -4525,7 +4584,7 @@ Partial Class Form1
         '
         'SetImagesJackor
         '
-        Me.SetImagesJackor.Location = New System.Drawing.Point(822, 250)
+        Me.SetImagesJackor.Location = New System.Drawing.Point(797, 250)
         Me.SetImagesJackor.Name = "SetImagesJackor"
         Me.SetImagesJackor.Size = New System.Drawing.Size(159, 23)
         Me.SetImagesJackor.TabIndex = 131
@@ -4534,7 +4593,7 @@ Partial Class Form1
         '
         'PictureBox3
         '
-        Me.PictureBox3.Location = New System.Drawing.Point(822, 279)
+        Me.PictureBox3.Location = New System.Drawing.Point(797, 279)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(159, 206)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -4552,7 +4611,7 @@ Partial Class Form1
         '
         'Button45
         '
-        Me.Button45.Location = New System.Drawing.Point(822, 221)
+        Me.Button45.Location = New System.Drawing.Point(797, 221)
         Me.Button45.Name = "Button45"
         Me.Button45.Size = New System.Drawing.Size(100, 23)
         Me.Button45.TabIndex = 126
@@ -4572,7 +4631,7 @@ Partial Class Form1
         '
         Me.BilderListBoxJacka.FormattingEnabled = True
         Me.BilderListBoxJacka.ItemHeight = 20
-        Me.BilderListBoxJacka.Location = New System.Drawing.Point(822, 67)
+        Me.BilderListBoxJacka.Location = New System.Drawing.Point(797, 67)
         Me.BilderListBoxJacka.Name = "BilderListBoxJacka"
         Me.BilderListBoxJacka.Size = New System.Drawing.Size(100, 84)
         Me.BilderListBoxJacka.TabIndex = 123
@@ -4580,7 +4639,7 @@ Partial Class Form1
         'TaggarTextBox2
         '
         Me.TaggarTextBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Taggar", True))
-        Me.TaggarTextBox2.Location = New System.Drawing.Point(822, 189)
+        Me.TaggarTextBox2.Location = New System.Drawing.Point(797, 189)
         Me.TaggarTextBox2.Name = "TaggarTextBox2"
         Me.TaggarTextBox2.Size = New System.Drawing.Size(100, 26)
         Me.TaggarTextBox2.TabIndex = 122
@@ -4588,7 +4647,7 @@ Partial Class Form1
         'BilderTextBoxJacka
         '
         Me.BilderTextBoxJacka.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Bilder", True))
-        Me.BilderTextBoxJacka.Location = New System.Drawing.Point(822, 157)
+        Me.BilderTextBoxJacka.Location = New System.Drawing.Point(797, 157)
         Me.BilderTextBoxJacka.Name = "BilderTextBoxJacka"
         Me.BilderTextBoxJacka.Size = New System.Drawing.Size(100, 26)
         Me.BilderTextBoxJacka.TabIndex = 121
@@ -4781,6 +4840,16 @@ Partial Class Form1
         Me.TabPage4.Text = "Dam Kjol"
         Me.TabPage4.UseVisualStyleBackColor = True
         '
+        'Button105
+        '
+        Me.Button105.BackColor = System.Drawing.Color.Green
+        Me.Button105.Location = New System.Drawing.Point(8, 429)
+        Me.Button105.Name = "Button105"
+        Me.Button105.Size = New System.Drawing.Size(151, 32)
+        Me.Button105.TabIndex = 143
+        Me.Button105.Text = "Redigera"
+        Me.Button105.UseVisualStyleBackColor = False
+        '
         'Button98
         '
         Me.Button98.BackColor = System.Drawing.Color.Yellow
@@ -4794,6 +4863,8 @@ Partial Class Form1
         '
         'Panel4
         '
+        Me.Panel4.Controls.Add(ViktLabel3)
+        Me.Panel4.Controls.Add(Me.ViktTextBox3)
         Me.Panel4.Controls.Add(Me.ArtikelnrTextBoxKjol)
         Me.Panel4.Controls.Add(ArtikelnrLabel1)
         Me.Panel4.Controls.Add(Me.HyllaTextBoxKjol)
@@ -4849,7 +4920,7 @@ Partial Class Form1
         Me.Panel4.Enabled = False
         Me.Panel4.Location = New System.Drawing.Point(165, 13)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(663, 581)
+        Me.Panel4.Size = New System.Drawing.Size(654, 581)
         Me.Panel4.TabIndex = 141
         '
         'ArtikelnrTextBoxKjol
@@ -4918,7 +4989,7 @@ Partial Class Form1
         'EN_Detaljerad_beskrivningTextBox3
         '
         Me.EN_Detaljerad_beskrivningTextBox3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "EN Detaljerad beskrivning", True))
-        Me.EN_Detaljerad_beskrivningTextBox3.Location = New System.Drawing.Point(270, 438)
+        Me.EN_Detaljerad_beskrivningTextBox3.Location = New System.Drawing.Point(267, 468)
         Me.EN_Detaljerad_beskrivningTextBox3.Multiline = True
         Me.EN_Detaljerad_beskrivningTextBox3.Name = "EN_Detaljerad_beskrivningTextBox3"
         Me.EN_Detaljerad_beskrivningTextBox3.Size = New System.Drawing.Size(379, 86)
@@ -4935,7 +5006,7 @@ Partial Class Form1
         'EN_BeskrivningTextBox3
         '
         Me.EN_BeskrivningTextBox3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "EN Beskrivning", True))
-        Me.EN_BeskrivningTextBox3.Location = New System.Drawing.Point(270, 406)
+        Me.EN_BeskrivningTextBox3.Location = New System.Drawing.Point(267, 436)
         Me.EN_BeskrivningTextBox3.Name = "EN_BeskrivningTextBox3"
         Me.EN_BeskrivningTextBox3.Size = New System.Drawing.Size(379, 26)
         Me.EN_BeskrivningTextBox3.TabIndex = 123
@@ -4959,7 +5030,8 @@ Partial Class Form1
         'SV_Detaljerad_beskrivningTextBox3
         '
         Me.SV_Detaljerad_beskrivningTextBox3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "SV Detaljerad beskrivning", True))
-        Me.SV_Detaljerad_beskrivningTextBox3.Location = New System.Drawing.Point(270, 300)
+        Me.SV_Detaljerad_beskrivningTextBox3.Location = New System.Drawing.Point(267, 330)
+        Me.SV_Detaljerad_beskrivningTextBox3.MaxLength = 255
         Me.SV_Detaljerad_beskrivningTextBox3.Multiline = True
         Me.SV_Detaljerad_beskrivningTextBox3.Name = "SV_Detaljerad_beskrivningTextBox3"
         Me.SV_Detaljerad_beskrivningTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -4978,7 +5050,7 @@ Partial Class Form1
         'SV_BeskrivningTextBox3
         '
         Me.SV_BeskrivningTextBox3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "SV Beskrivning", True))
-        Me.SV_BeskrivningTextBox3.Location = New System.Drawing.Point(270, 268)
+        Me.SV_BeskrivningTextBox3.Location = New System.Drawing.Point(267, 298)
         Me.SV_BeskrivningTextBox3.Name = "SV_BeskrivningTextBox3"
         Me.SV_BeskrivningTextBox3.Size = New System.Drawing.Size(377, 26)
         Me.SV_BeskrivningTextBox3.TabIndex = 121
@@ -5040,7 +5112,7 @@ Partial Class Form1
         'LängdTextBoxKjol
         '
         Me.LängdTextBoxKjol.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "Längd", True))
-        Me.LängdTextBoxKjol.Location = New System.Drawing.Point(544, 6)
+        Me.LängdTextBoxKjol.Location = New System.Drawing.Point(544, 3)
         Me.LängdTextBoxKjol.Name = "LängdTextBoxKjol"
         Me.LängdTextBoxKjol.Size = New System.Drawing.Size(100, 26)
         Me.LängdTextBoxKjol.TabIndex = 102
@@ -5048,7 +5120,7 @@ Partial Class Form1
         'Längd_framTextBoxKjol
         '
         Me.Längd_framTextBoxKjol.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "Längd fram", True))
-        Me.Längd_framTextBoxKjol.Location = New System.Drawing.Point(544, 38)
+        Me.Längd_framTextBoxKjol.Location = New System.Drawing.Point(544, 35)
         Me.Längd_framTextBoxKjol.Name = "Längd_framTextBoxKjol"
         Me.Längd_framTextBoxKjol.Size = New System.Drawing.Size(100, 26)
         Me.Längd_framTextBoxKjol.TabIndex = 103
@@ -5056,7 +5128,7 @@ Partial Class Form1
         'Längd_bakTextBoxKjol
         '
         Me.Längd_bakTextBoxKjol.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "Längd bak", True))
-        Me.Längd_bakTextBoxKjol.Location = New System.Drawing.Point(544, 70)
+        Me.Längd_bakTextBoxKjol.Location = New System.Drawing.Point(544, 67)
         Me.Längd_bakTextBoxKjol.Name = "Längd_bakTextBoxKjol"
         Me.Längd_bakTextBoxKjol.Size = New System.Drawing.Size(100, 26)
         Me.Längd_bakTextBoxKjol.TabIndex = 104
@@ -5086,15 +5158,6 @@ Partial Class Form1
         Me.Pris_mmTextBoxKjol.Name = "Pris_mmTextBoxKjol"
         Me.Pris_mmTextBoxKjol.Size = New System.Drawing.Size(100, 26)
         Me.Pris_mmTextBoxKjol.TabIndex = 107
-        '
-        'ConditionComboBoxKjol
-        '
-        Me.ConditionComboBoxKjol.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "Condition", True))
-        Me.ConditionComboBoxKjol.FormattingEnabled = True
-        Me.ConditionComboBoxKjol.Location = New System.Drawing.Point(1146, 273)
-        Me.ConditionComboBoxKjol.Name = "ConditionComboBoxKjol"
-        Me.ConditionComboBoxKjol.Size = New System.Drawing.Size(100, 28)
-        Me.ConditionComboBoxKjol.TabIndex = 109
         '
         'Pris_um1TextBoxKjol
         '
@@ -5357,6 +5420,15 @@ Partial Class Form1
         Me.Dam_KjolListBox.TabIndex = 0
         Me.Dam_KjolListBox.ValueMember = "ID"
         '
+        'ConditionComboBoxKjol
+        '
+        Me.ConditionComboBoxKjol.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "Condition", True))
+        Me.ConditionComboBoxKjol.FormattingEnabled = True
+        Me.ConditionComboBoxKjol.Location = New System.Drawing.Point(1146, 273)
+        Me.ConditionComboBoxKjol.Name = "ConditionComboBoxKjol"
+        Me.ConditionComboBoxKjol.Size = New System.Drawing.Size(100, 28)
+        Me.ConditionComboBoxKjol.TabIndex = 109
+        '
         'TabPage5
         '
         Me.TabPage5.Controls.Add(Me.Button106)
@@ -5407,6 +5479,16 @@ Partial Class Form1
         Me.TabPage5.Text = "Dam Klänning"
         Me.TabPage5.UseVisualStyleBackColor = True
         '
+        'Button106
+        '
+        Me.Button106.BackColor = System.Drawing.Color.Green
+        Me.Button106.Location = New System.Drawing.Point(6, 431)
+        Me.Button106.Name = "Button106"
+        Me.Button106.Size = New System.Drawing.Size(151, 32)
+        Me.Button106.TabIndex = 148
+        Me.Button106.Text = "Redigera"
+        Me.Button106.UseVisualStyleBackColor = False
+        '
         'Button99
         '
         Me.Button99.BackColor = System.Drawing.Color.Yellow
@@ -5420,6 +5502,8 @@ Partial Class Form1
         '
         'Panel5
         '
+        Me.Panel5.Controls.Add(ViktLabel4)
+        Me.Panel5.Controls.Add(Me.ViktTextBox4)
         Me.Panel5.Controls.Add(Me.ArtikelnrTextBoxKlanning)
         Me.Panel5.Controls.Add(ArtikelnrLabel2)
         Me.Panel5.Controls.Add(Me.PlaggTextBoxKlanning)
@@ -5485,7 +5569,7 @@ Partial Class Form1
         Me.Panel5.Enabled = False
         Me.Panel5.Location = New System.Drawing.Point(163, 13)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(628, 581)
+        Me.Panel5.Size = New System.Drawing.Size(630, 598)
         Me.Panel5.TabIndex = 146
         '
         'ArtikelnrTextBoxKlanning
@@ -5554,10 +5638,10 @@ Partial Class Form1
         'EN_Detaljerad_beskrivningTextBox2
         '
         Me.EN_Detaljerad_beskrivningTextBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KlänningBindingSource, "EN Detaljerad beskrivning", True))
-        Me.EN_Detaljerad_beskrivningTextBox2.Location = New System.Drawing.Point(241, 472)
+        Me.EN_Detaljerad_beskrivningTextBox2.Location = New System.Drawing.Point(241, 494)
         Me.EN_Detaljerad_beskrivningTextBox2.Multiline = True
         Me.EN_Detaljerad_beskrivningTextBox2.Name = "EN_Detaljerad_beskrivningTextBox2"
-        Me.EN_Detaljerad_beskrivningTextBox2.Size = New System.Drawing.Size(379, 100)
+        Me.EN_Detaljerad_beskrivningTextBox2.Size = New System.Drawing.Size(379, 44)
         Me.EN_Detaljerad_beskrivningTextBox2.TabIndex = 129
         '
         'Button83
@@ -5571,7 +5655,7 @@ Partial Class Form1
         'EN_BeskrivningTextBox2
         '
         Me.EN_BeskrivningTextBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KlänningBindingSource, "EN Beskrivning", True))
-        Me.EN_BeskrivningTextBox2.Location = New System.Drawing.Point(241, 440)
+        Me.EN_BeskrivningTextBox2.Location = New System.Drawing.Point(241, 462)
         Me.EN_BeskrivningTextBox2.Name = "EN_BeskrivningTextBox2"
         Me.EN_BeskrivningTextBox2.Size = New System.Drawing.Size(379, 26)
         Me.EN_BeskrivningTextBox2.TabIndex = 128
@@ -5587,7 +5671,8 @@ Partial Class Form1
         'SV_Detaljerad_beskrivningTextBox2
         '
         Me.SV_Detaljerad_beskrivningTextBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KlänningBindingSource, "SV Detaljerad beskrivning", True))
-        Me.SV_Detaljerad_beskrivningTextBox2.Location = New System.Drawing.Point(241, 330)
+        Me.SV_Detaljerad_beskrivningTextBox2.Location = New System.Drawing.Point(242, 355)
+        Me.SV_Detaljerad_beskrivningTextBox2.MaxLength = 255
         Me.SV_Detaljerad_beskrivningTextBox2.Multiline = True
         Me.SV_Detaljerad_beskrivningTextBox2.Name = "SV_Detaljerad_beskrivningTextBox2"
         Me.SV_Detaljerad_beskrivningTextBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -5605,7 +5690,7 @@ Partial Class Form1
         'SV_BeskrivningTextBox2
         '
         Me.SV_BeskrivningTextBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KlänningBindingSource, "SV Beskrivning", True))
-        Me.SV_BeskrivningTextBox2.Location = New System.Drawing.Point(241, 298)
+        Me.SV_BeskrivningTextBox2.Location = New System.Drawing.Point(242, 323)
         Me.SV_BeskrivningTextBox2.Name = "SV_BeskrivningTextBox2"
         Me.SV_BeskrivningTextBox2.Size = New System.Drawing.Size(379, 26)
         Me.SV_BeskrivningTextBox2.TabIndex = 126
@@ -6089,6 +6174,16 @@ Partial Class Form1
         Me.TabPage6.Text = "Dam Topp"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
+        'Button107
+        '
+        Me.Button107.BackColor = System.Drawing.Color.Green
+        Me.Button107.Location = New System.Drawing.Point(6, 470)
+        Me.Button107.Name = "Button107"
+        Me.Button107.Size = New System.Drawing.Size(151, 32)
+        Me.Button107.TabIndex = 107
+        Me.Button107.Text = "Redigera"
+        Me.Button107.UseVisualStyleBackColor = False
+        '
         'Button100
         '
         Me.Button100.BackColor = System.Drawing.Color.Yellow
@@ -6102,6 +6197,8 @@ Partial Class Form1
         '
         'Panel6
         '
+        Me.Panel6.Controls.Add(ViktLabel5)
+        Me.Panel6.Controls.Add(Me.ViktTextBox5)
         Me.Panel6.Controls.Add(Me.ArtikelnrTextBoxToppar)
         Me.Panel6.Controls.Add(ArtikelnrLabel)
         Me.Panel6.Controls.Add(Me.PlaggTextBoxToppar)
@@ -6405,15 +6502,6 @@ Partial Class Form1
         Me.Ärmlängd_utsidaTextBoxToppar.Name = "Ärmlängd_utsidaTextBoxToppar"
         Me.Ärmlängd_utsidaTextBoxToppar.Size = New System.Drawing.Size(100, 26)
         Me.Ärmlängd_utsidaTextBoxToppar.TabIndex = 36
-        '
-        'ConditionComboBoxToppar
-        '
-        Me.ConditionComboBoxToppar.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ToppBindingSource, "Condition", True))
-        Me.ConditionComboBoxToppar.FormattingEnabled = True
-        Me.ConditionComboBoxToppar.Location = New System.Drawing.Point(1176, 300)
-        Me.ConditionComboBoxToppar.Name = "ConditionComboBoxToppar"
-        Me.ConditionComboBoxToppar.Size = New System.Drawing.Size(100, 28)
-        Me.ConditionComboBoxToppar.TabIndex = 60
         '
         'SV_BeskrivningTextBox
         '
@@ -6731,11 +6819,20 @@ Partial Class Form1
         Me.Dam_ToppListBoxToppar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Dam_ToppListBoxToppar.FormattingEnabled = True
         Me.Dam_ToppListBoxToppar.ItemHeight = 24
-        Me.Dam_ToppListBoxToppar.Location = New System.Drawing.Point(0, 69)
+        Me.Dam_ToppListBoxToppar.Location = New System.Drawing.Point(7, 69)
         Me.Dam_ToppListBoxToppar.Name = "Dam_ToppListBoxToppar"
-        Me.Dam_ToppListBoxToppar.Size = New System.Drawing.Size(154, 148)
+        Me.Dam_ToppListBoxToppar.Size = New System.Drawing.Size(150, 148)
         Me.Dam_ToppListBoxToppar.TabIndex = 0
         Me.Dam_ToppListBoxToppar.ValueMember = "ID"
+        '
+        'ConditionComboBoxToppar
+        '
+        Me.ConditionComboBoxToppar.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ToppBindingSource, "Condition", True))
+        Me.ConditionComboBoxToppar.FormattingEnabled = True
+        Me.ConditionComboBoxToppar.Location = New System.Drawing.Point(1176, 300)
+        Me.ConditionComboBoxToppar.Name = "ConditionComboBoxToppar"
+        Me.ConditionComboBoxToppar.Size = New System.Drawing.Size(100, 28)
+        Me.ConditionComboBoxToppar.TabIndex = 60
         '
         'TabPage7
         '
@@ -6787,6 +6884,16 @@ Partial Class Form1
         Me.TabPage7.Text = "Dam Jumpsuit"
         Me.TabPage7.UseVisualStyleBackColor = True
         '
+        'Button108
+        '
+        Me.Button108.BackColor = System.Drawing.Color.Green
+        Me.Button108.Location = New System.Drawing.Point(6, 412)
+        Me.Button108.Name = "Button108"
+        Me.Button108.Size = New System.Drawing.Size(151, 32)
+        Me.Button108.TabIndex = 150
+        Me.Button108.Text = "Redigera"
+        Me.Button108.UseVisualStyleBackColor = False
+        '
         'Button101
         '
         Me.Button101.BackColor = System.Drawing.Color.Yellow
@@ -6800,6 +6907,8 @@ Partial Class Form1
         '
         'Panel7
         '
+        Me.Panel7.Controls.Add(ViktLabel6)
+        Me.Panel7.Controls.Add(Me.ViktTextBox6)
         Me.Panel7.Controls.Add(Me.ArtikelnrTextBoxJumpsuit)
         Me.Panel7.Controls.Add(ArtikelnrLabel6)
         Me.Panel7.Controls.Add(Me.PlaggTextBoxJumpsuit)
@@ -6855,7 +6964,7 @@ Partial Class Form1
         Me.Panel7.Enabled = False
         Me.Panel7.Location = New System.Drawing.Point(163, 13)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(644, 477)
+        Me.Panel7.Size = New System.Drawing.Size(644, 507)
         Me.Panel7.TabIndex = 148
         '
         'ArtikelnrTextBoxJumpsuit
@@ -7018,11 +7127,12 @@ Partial Class Form1
         'SV_Detaljerad_beskrivningTextBoxJumpsuit
         '
         Me.SV_Detaljerad_beskrivningTextBoxJumpsuit.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JumpsuitBindingSource, "SV Detaljerad beskrivning", True))
-        Me.SV_Detaljerad_beskrivningTextBoxJumpsuit.Location = New System.Drawing.Point(257, 308)
+        Me.SV_Detaljerad_beskrivningTextBoxJumpsuit.Location = New System.Drawing.Point(262, 333)
+        Me.SV_Detaljerad_beskrivningTextBoxJumpsuit.MaxLength = 255
         Me.SV_Detaljerad_beskrivningTextBoxJumpsuit.Multiline = True
         Me.SV_Detaljerad_beskrivningTextBoxJumpsuit.Name = "SV_Detaljerad_beskrivningTextBoxJumpsuit"
         Me.SV_Detaljerad_beskrivningTextBoxJumpsuit.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.SV_Detaljerad_beskrivningTextBoxJumpsuit.Size = New System.Drawing.Size(378, 138)
+        Me.SV_Detaljerad_beskrivningTextBoxJumpsuit.Size = New System.Drawing.Size(378, 171)
         Me.SV_Detaljerad_beskrivningTextBoxJumpsuit.TabIndex = 119
         '
         'Midja_msTextBoxJumpsuit
@@ -7037,7 +7147,7 @@ Partial Class Form1
         'SV_BeskrivningTextBoxJumpsuit
         '
         Me.SV_BeskrivningTextBoxJumpsuit.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JumpsuitBindingSource, "SV Beskrivning", True))
-        Me.SV_BeskrivningTextBoxJumpsuit.Location = New System.Drawing.Point(257, 276)
+        Me.SV_BeskrivningTextBoxJumpsuit.Location = New System.Drawing.Point(262, 301)
         Me.SV_BeskrivningTextBoxJumpsuit.Name = "SV_BeskrivningTextBoxJumpsuit"
         Me.SV_BeskrivningTextBoxJumpsuit.Size = New System.Drawing.Size(378, 26)
         Me.SV_BeskrivningTextBoxJumpsuit.TabIndex = 118
@@ -7376,7 +7486,7 @@ Partial Class Form1
         Me.TabPage9.Controls.Add(Me.Button54)
         Me.TabPage9.Location = New System.Drawing.Point(4, 29)
         Me.TabPage9.Name = "TabPage9"
-        Me.TabPage9.Size = New System.Drawing.Size(1442, 647)
+        Me.TabPage9.Size = New System.Drawing.Size(1294, 647)
         Me.TabPage9.TabIndex = 8
         Me.TabPage9.Text = "Alternativ"
         Me.TabPage9.UseVisualStyleBackColor = True
@@ -7439,75 +7549,124 @@ Partial Class Form1
         '
         Me.Dam_JumpsuitTableAdapter.ClearBeforeFill = True
         '
-        'Button102
+        'ViktLabel
         '
-        Me.Button102.BackColor = System.Drawing.Color.Green
-        Me.Button102.Location = New System.Drawing.Point(7, 485)
-        Me.Button102.Name = "Button102"
-        Me.Button102.Size = New System.Drawing.Size(151, 32)
-        Me.Button102.TabIndex = 144
-        Me.Button102.Text = "Redigera"
-        Me.Button102.UseVisualStyleBackColor = False
+        ViktLabel.AutoSize = True
+        ViktLabel.Location = New System.Drawing.Point(479, 138)
+        ViktLabel.Name = "ViktLabel"
+        ViktLabel.Size = New System.Drawing.Size(40, 20)
+        ViktLabel.TabIndex = 134
+        ViktLabel.Text = "Vikt:"
         '
-        'Button103
+        'ViktTextBox
         '
-        Me.Button103.BackColor = System.Drawing.Color.Green
-        Me.Button103.Location = New System.Drawing.Point(10, 483)
-        Me.Button103.Name = "Button103"
-        Me.Button103.Size = New System.Drawing.Size(151, 32)
-        Me.Button103.TabIndex = 151
-        Me.Button103.Text = "Redigera"
-        Me.Button103.UseVisualStyleBackColor = False
+        Me.ViktTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Vikt", True))
+        Me.ViktTextBox.Location = New System.Drawing.Point(525, 135)
+        Me.ViktTextBox.Name = "ViktTextBox"
+        Me.ViktTextBox.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox.TabIndex = 135
         '
-        'Button104
+        'ViktLabel1
         '
-        Me.Button104.BackColor = System.Drawing.Color.Green
-        Me.Button104.Location = New System.Drawing.Point(6, 428)
-        Me.Button104.Name = "Button104"
-        Me.Button104.Size = New System.Drawing.Size(151, 32)
-        Me.Button104.TabIndex = 147
-        Me.Button104.Text = "Redigera"
-        Me.Button104.UseVisualStyleBackColor = False
+        ViktLabel1.AutoSize = True
+        ViktLabel1.Location = New System.Drawing.Point(477, 173)
+        ViktLabel1.Name = "ViktLabel1"
+        ViktLabel1.Size = New System.Drawing.Size(40, 20)
+        ViktLabel1.TabIndex = 140
+        ViktLabel1.Text = "Vikt:"
         '
-        'Button105
+        'ViktTextBox1
         '
-        Me.Button105.BackColor = System.Drawing.Color.Green
-        Me.Button105.Location = New System.Drawing.Point(8, 429)
-        Me.Button105.Name = "Button105"
-        Me.Button105.Size = New System.Drawing.Size(151, 32)
-        Me.Button105.TabIndex = 143
-        Me.Button105.Text = "Redigera"
-        Me.Button105.UseVisualStyleBackColor = False
+        Me.ViktTextBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Vikt", True))
+        Me.ViktTextBox1.Location = New System.Drawing.Point(523, 170)
+        Me.ViktTextBox1.Name = "ViktTextBox1"
+        Me.ViktTextBox1.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox1.TabIndex = 141
         '
-        'Button106
+        'ViktLabel2
         '
-        Me.Button106.BackColor = System.Drawing.Color.Green
-        Me.Button106.Location = New System.Drawing.Point(6, 431)
-        Me.Button106.Name = "Button106"
-        Me.Button106.Size = New System.Drawing.Size(151, 32)
-        Me.Button106.TabIndex = 148
-        Me.Button106.Text = "Redigera"
-        Me.Button106.UseVisualStyleBackColor = False
+        ViktLabel2.AutoSize = True
+        ViktLabel2.Location = New System.Drawing.Point(474, 236)
+        ViktLabel2.Name = "ViktLabel2"
+        ViktLabel2.Size = New System.Drawing.Size(40, 20)
+        ViktLabel2.TabIndex = 137
+        ViktLabel2.Text = "Vikt:"
         '
-        'Button107
+        'ViktTextBox2
         '
-        Me.Button107.BackColor = System.Drawing.Color.Green
-        Me.Button107.Location = New System.Drawing.Point(6, 470)
-        Me.Button107.Name = "Button107"
-        Me.Button107.Size = New System.Drawing.Size(151, 32)
-        Me.Button107.TabIndex = 107
-        Me.Button107.Text = "Redigera"
-        Me.Button107.UseVisualStyleBackColor = False
+        Me.ViktTextBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Vikt", True))
+        Me.ViktTextBox2.Location = New System.Drawing.Point(520, 233)
+        Me.ViktTextBox2.Name = "ViktTextBox2"
+        Me.ViktTextBox2.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox2.TabIndex = 138
         '
-        'Button108
+        'ViktLabel3
         '
-        Me.Button108.BackColor = System.Drawing.Color.Green
-        Me.Button108.Location = New System.Drawing.Point(6, 412)
-        Me.Button108.Name = "Button108"
-        Me.Button108.Size = New System.Drawing.Size(151, 32)
-        Me.Button108.TabIndex = 150
-        Me.Button108.Text = "Redigera"
-        Me.Button108.UseVisualStyleBackColor = False
+        ViktLabel3.AutoSize = True
+        ViktLabel3.Location = New System.Drawing.Point(496, 269)
+        ViktLabel3.Name = "ViktLabel3"
+        ViktLabel3.Size = New System.Drawing.Size(40, 20)
+        ViktLabel3.TabIndex = 133
+        ViktLabel3.Text = "Vikt:"
+        '
+        'ViktTextBox3
+        '
+        Me.ViktTextBox3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "Vikt", True))
+        Me.ViktTextBox3.Location = New System.Drawing.Point(542, 266)
+        Me.ViktTextBox3.Name = "ViktTextBox3"
+        Me.ViktTextBox3.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox3.TabIndex = 134
+        '
+        'ViktLabel4
+        '
+        ViktLabel4.AutoSize = True
+        ViktLabel4.Location = New System.Drawing.Point(474, 294)
+        ViktLabel4.Name = "ViktLabel4"
+        ViktLabel4.Size = New System.Drawing.Size(40, 20)
+        ViktLabel4.TabIndex = 139
+        ViktLabel4.Text = "Vikt:"
+        '
+        'ViktTextBox4
+        '
+        Me.ViktTextBox4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KlänningBindingSource, "Vikt", True))
+        Me.ViktTextBox4.Location = New System.Drawing.Point(520, 291)
+        Me.ViktTextBox4.Name = "ViktTextBox4"
+        Me.ViktTextBox4.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox4.TabIndex = 140
+        '
+        'ViktLabel5
+        '
+        ViktLabel5.AutoSize = True
+        ViktLabel5.Location = New System.Drawing.Point(531, 262)
+        ViktLabel5.Name = "ViktLabel5"
+        ViktLabel5.Size = New System.Drawing.Size(40, 20)
+        ViktLabel5.TabIndex = 97
+        ViktLabel5.Text = "Vikt:"
+        '
+        'ViktTextBox5
+        '
+        Me.ViktTextBox5.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ToppBindingSource, "Vikt", True))
+        Me.ViktTextBox5.Location = New System.Drawing.Point(577, 259)
+        Me.ViktTextBox5.Name = "ViktTextBox5"
+        Me.ViktTextBox5.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox5.TabIndex = 98
+        '
+        'ViktLabel6
+        '
+        ViktLabel6.AutoSize = True
+        ViktLabel6.Location = New System.Drawing.Point(489, 266)
+        ViktLabel6.Name = "ViktLabel6"
+        ViktLabel6.Size = New System.Drawing.Size(40, 20)
+        ViktLabel6.TabIndex = 141
+        ViktLabel6.Text = "Vikt:"
+        '
+        'ViktTextBox6
+        '
+        Me.ViktTextBox6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JumpsuitBindingSource, "Vikt", True))
+        Me.ViktTextBox6.Location = New System.Drawing.Point(535, 263)
+        Me.ViktTextBox6.Name = "ViktTextBox6"
+        Me.ViktTextBox6.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox6.TabIndex = 142
         '
         'Form1
         '
@@ -8010,4 +8169,11 @@ Partial Class Form1
     Friend WithEvents Button106 As Button
     Friend WithEvents Button107 As Button
     Friend WithEvents Button108 As Button
+    Friend WithEvents ViktTextBox As TextBox
+    Friend WithEvents ViktTextBox1 As TextBox
+    Friend WithEvents ViktTextBox2 As TextBox
+    Friend WithEvents ViktTextBox3 As TextBox
+    Friend WithEvents ViktTextBox4 As TextBox
+    Friend WithEvents ViktTextBox5 As TextBox
+    Friend WithEvents ViktTextBox6 As TextBox
 End Class

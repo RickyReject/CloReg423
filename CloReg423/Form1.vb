@@ -47,11 +47,11 @@ Public Class Form1
 
         PlaggTextBoxToppar.Text = ComboBox1.Text
 
-        Me.Dam_ToppBindingSource.AddNew()
-
         Dim newitem As Int16
         Dam_ToppBindingSource.MoveLast()
         newitem = ArtikelnrTextBoxToppar.Text.Remove(0, 3) + 1
+
+        Me.Dam_ToppBindingSource.AddNew()
 
         If ForvaldhyllaTextBoxTopp.Text IsNot Nothing Then
             HyllaTextBoxToppar.Text = ForvaldhyllaTextBoxTopp.Text
