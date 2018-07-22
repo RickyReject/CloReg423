@@ -265,9 +265,10 @@ Partial Class Form1
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Button102 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.ArtikelnrTextBoxAcc = New System.Windows.Forms.TextBox()
+        Me.ViktTextBox = New System.Windows.Forms.TextBox()
         Me.AccessoarerBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.CLOREGDBDataSet = New CloReg423.CLOREGDBDataSet()
+        Me.ArtikelnrTextBoxAcc = New System.Windows.Forms.TextBox()
         Me.TypTextBoxAcc = New System.Windows.Forms.TextBox()
         Me.HyllaTextBoxAcc = New System.Windows.Forms.TextBox()
         Me.MärkeTextBoxAcc = New System.Windows.Forms.TextBox()
@@ -321,8 +322,11 @@ Partial Class Form1
         Me.Button103 = New System.Windows.Forms.Button()
         Me.Button55 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.ArtikelnrTextBoxByxor = New System.Windows.Forms.TextBox()
+        Me.EN_Detaljerad_beskrivningTextBox5 = New System.Windows.Forms.TextBox()
         Me.Dam_ByxorBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.EN_BeskrivningTextBox5 = New System.Windows.Forms.TextBox()
+        Me.ViktTextBox1 = New System.Windows.Forms.TextBox()
+        Me.ArtikelnrTextBoxByxor = New System.Windows.Forms.TextBox()
         Me.HyllaTextBoxByxor = New System.Windows.Forms.TextBox()
         Me.Ang_storlekTextBoxByxor = New System.Windows.Forms.TextBox()
         Me.Vår_storlekTextBoxByxor = New System.Windows.Forms.TextBox()
@@ -381,8 +385,11 @@ Partial Class Form1
         Me.Button104 = New System.Windows.Forms.Button()
         Me.Button97 = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.ArtikelnrTextBoxJacka = New System.Windows.Forms.TextBox()
+        Me.EN_Detaljerad_beskrivningTextBox4 = New System.Windows.Forms.TextBox()
         Me.Dam_JackaBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.EN_BeskrivningTextBox4 = New System.Windows.Forms.TextBox()
+        Me.ViktTextBox2 = New System.Windows.Forms.TextBox()
+        Me.ArtikelnrTextBoxJacka = New System.Windows.Forms.TextBox()
         Me.HyllaTextBoxJacka = New System.Windows.Forms.TextBox()
         Me.Ang_storlekTextBoxJacka = New System.Windows.Forms.TextBox()
         Me.Vår_storlekTextBoxJacka = New System.Windows.Forms.TextBox()
@@ -439,8 +446,9 @@ Partial Class Form1
         Me.Button105 = New System.Windows.Forms.Button()
         Me.Button98 = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.ArtikelnrTextBoxKjol = New System.Windows.Forms.TextBox()
+        Me.ViktTextBox3 = New System.Windows.Forms.TextBox()
         Me.Dam_KjolBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.ArtikelnrTextBoxKjol = New System.Windows.Forms.TextBox()
         Me.HyllaTextBoxKjol = New System.Windows.Forms.TextBox()
         Me.Ang_storlekTextBoxKjol = New System.Windows.Forms.TextBox()
         Me.Vår_storkelTextBoxKjol = New System.Windows.Forms.TextBox()
@@ -501,8 +509,9 @@ Partial Class Form1
         Me.Button106 = New System.Windows.Forms.Button()
         Me.Button99 = New System.Windows.Forms.Button()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.ArtikelnrTextBoxKlanning = New System.Windows.Forms.TextBox()
+        Me.ViktTextBox4 = New System.Windows.Forms.TextBox()
         Me.Dam_KlänningBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.ArtikelnrTextBoxKlanning = New System.Windows.Forms.TextBox()
         Me.PlaggTextBoxKlanning = New System.Windows.Forms.TextBox()
         Me.HyllaTextBoxKlanning = New System.Windows.Forms.TextBox()
         Me.Ang_storlekTextBoxKlanning = New System.Windows.Forms.TextBox()
@@ -568,8 +577,9 @@ Partial Class Form1
         Me.Button107 = New System.Windows.Forms.Button()
         Me.Button100 = New System.Windows.Forms.Button()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.ArtikelnrTextBoxToppar = New System.Windows.Forms.TextBox()
+        Me.ViktTextBox5 = New System.Windows.Forms.TextBox()
         Me.Dam_ToppBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.ArtikelnrTextBoxToppar = New System.Windows.Forms.TextBox()
         Me.PlaggTextBoxToppar = New System.Windows.Forms.TextBox()
         Me.HyllaTextBoxToppar = New System.Windows.Forms.TextBox()
         Me.Ang_storlekTextBoxToppar = New System.Windows.Forms.TextBox()
@@ -636,8 +646,11 @@ Partial Class Form1
         Me.Button108 = New System.Windows.Forms.Button()
         Me.Button101 = New System.Windows.Forms.Button()
         Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.ArtikelnrTextBoxJumpsuit = New System.Windows.Forms.TextBox()
+        Me.EN_Detaljerad_beskrivningTextBox6 = New System.Windows.Forms.TextBox()
         Me.Dam_JumpsuitBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.EN_BeskrivningTextBox6 = New System.Windows.Forms.TextBox()
+        Me.ViktTextBox6 = New System.Windows.Forms.TextBox()
+        Me.ArtikelnrTextBoxJumpsuit = New System.Windows.Forms.TextBox()
         Me.PlaggTextBoxJumpsuit = New System.Windows.Forms.TextBox()
         Me.HyllaTextBoxJumpsuit = New System.Windows.Forms.TextBox()
         Me.Ang_storlekTextBoxJumpsuit = New System.Windows.Forms.TextBox()
@@ -705,19 +718,6 @@ Partial Class Form1
         Me.Dam_JackaTableAdapter = New CloReg423.CLOREGDBDataSetTableAdapters.Dam_JackaTableAdapter()
         Me.Dam_ByxorTableAdapter = New CloReg423.CLOREGDBDataSetTableAdapters.Dam_ByxorTableAdapter()
         Me.Dam_JumpsuitTableAdapter = New CloReg423.CLOREGDBDataSetTableAdapters.Dam_JumpsuitTableAdapter()
-        Me.ViktTextBox = New System.Windows.Forms.TextBox()
-        Me.ViktTextBox1 = New System.Windows.Forms.TextBox()
-        Me.ViktTextBox2 = New System.Windows.Forms.TextBox()
-        Me.ViktTextBox3 = New System.Windows.Forms.TextBox()
-        Me.ViktTextBox4 = New System.Windows.Forms.TextBox()
-        Me.ViktTextBox5 = New System.Windows.Forms.TextBox()
-        Me.ViktTextBox6 = New System.Windows.Forms.TextBox()
-        Me.EN_BeskrivningTextBox4 = New System.Windows.Forms.TextBox()
-        Me.EN_Detaljerad_beskrivningTextBox4 = New System.Windows.Forms.TextBox()
-        Me.EN_BeskrivningTextBox5 = New System.Windows.Forms.TextBox()
-        Me.EN_Detaljerad_beskrivningTextBox5 = New System.Windows.Forms.TextBox()
-        Me.EN_BeskrivningTextBox6 = New System.Windows.Forms.TextBox()
-        Me.EN_Detaljerad_beskrivningTextBox6 = New System.Windows.Forms.TextBox()
         ArtikelnrLabel = New System.Windows.Forms.Label()
         PlaggLabel = New System.Windows.Forms.Label()
         HyllaLabel = New System.Windows.Forms.Label()
@@ -1915,7 +1915,7 @@ Partial Class Form1
         'EN_BeskrivningLabel1
         '
         EN_BeskrivningLabel1.AutoSize = True
-        EN_BeskrivningLabel1.Location = New System.Drawing.Point(97, 446)
+        EN_BeskrivningLabel1.Location = New System.Drawing.Point(96, 519)
         EN_BeskrivningLabel1.Name = "EN_BeskrivningLabel1"
         EN_BeskrivningLabel1.Size = New System.Drawing.Size(120, 20)
         EN_BeskrivningLabel1.TabIndex = 106
@@ -1924,7 +1924,7 @@ Partial Class Form1
         'EN_Detaljerad_beskrivningLabel1
         '
         EN_Detaljerad_beskrivningLabel1.AutoSize = True
-        EN_Detaljerad_beskrivningLabel1.Location = New System.Drawing.Point(22, 478)
+        EN_Detaljerad_beskrivningLabel1.Location = New System.Drawing.Point(21, 551)
         EN_Detaljerad_beskrivningLabel1.Name = "EN_Detaljerad_beskrivningLabel1"
         EN_Detaljerad_beskrivningLabel1.Size = New System.Drawing.Size(195, 20)
         EN_Detaljerad_beskrivningLabel1.TabIndex = 107
@@ -2329,7 +2329,7 @@ Partial Class Form1
         'EN_BeskrivningLabel3
         '
         EN_BeskrivningLabel3.AutoSize = True
-        EN_BeskrivningLabel3.Location = New System.Drawing.Point(92, 526)
+        EN_BeskrivningLabel3.Location = New System.Drawing.Point(91, 453)
         EN_BeskrivningLabel3.Name = "EN_BeskrivningLabel3"
         EN_BeskrivningLabel3.Size = New System.Drawing.Size(120, 20)
         EN_BeskrivningLabel3.TabIndex = 122
@@ -2338,7 +2338,7 @@ Partial Class Form1
         'EN_Detaljerad_beskrivningLabel3
         '
         EN_Detaljerad_beskrivningLabel3.AutoSize = True
-        EN_Detaljerad_beskrivningLabel3.Location = New System.Drawing.Point(17, 558)
+        EN_Detaljerad_beskrivningLabel3.Location = New System.Drawing.Point(16, 485)
         EN_Detaljerad_beskrivningLabel3.Name = "EN_Detaljerad_beskrivningLabel3"
         EN_Detaljerad_beskrivningLabel3.Size = New System.Drawing.Size(195, 20)
         EN_Detaljerad_beskrivningLabel3.TabIndex = 123
@@ -3019,6 +3019,123 @@ Partial Class Form1
         InlagdLabel6.TabIndex = 139
         InlagdLabel6.Text = "Inlagd:"
         '
+        'ViktLabel
+        '
+        ViktLabel.AutoSize = True
+        ViktLabel.Location = New System.Drawing.Point(479, 138)
+        ViktLabel.Name = "ViktLabel"
+        ViktLabel.Size = New System.Drawing.Size(40, 20)
+        ViktLabel.TabIndex = 134
+        ViktLabel.Text = "Vikt:"
+        '
+        'ViktLabel1
+        '
+        ViktLabel1.AutoSize = True
+        ViktLabel1.Location = New System.Drawing.Point(477, 173)
+        ViktLabel1.Name = "ViktLabel1"
+        ViktLabel1.Size = New System.Drawing.Size(40, 20)
+        ViktLabel1.TabIndex = 140
+        ViktLabel1.Text = "Vikt:"
+        '
+        'ViktLabel2
+        '
+        ViktLabel2.AutoSize = True
+        ViktLabel2.Location = New System.Drawing.Point(474, 236)
+        ViktLabel2.Name = "ViktLabel2"
+        ViktLabel2.Size = New System.Drawing.Size(40, 20)
+        ViktLabel2.TabIndex = 137
+        ViktLabel2.Text = "Vikt:"
+        '
+        'ViktLabel3
+        '
+        ViktLabel3.AutoSize = True
+        ViktLabel3.Location = New System.Drawing.Point(496, 269)
+        ViktLabel3.Name = "ViktLabel3"
+        ViktLabel3.Size = New System.Drawing.Size(40, 20)
+        ViktLabel3.TabIndex = 133
+        ViktLabel3.Text = "Vikt:"
+        '
+        'ViktLabel4
+        '
+        ViktLabel4.AutoSize = True
+        ViktLabel4.Location = New System.Drawing.Point(474, 294)
+        ViktLabel4.Name = "ViktLabel4"
+        ViktLabel4.Size = New System.Drawing.Size(40, 20)
+        ViktLabel4.TabIndex = 139
+        ViktLabel4.Text = "Vikt:"
+        '
+        'ViktLabel5
+        '
+        ViktLabel5.AutoSize = True
+        ViktLabel5.Location = New System.Drawing.Point(531, 262)
+        ViktLabel5.Name = "ViktLabel5"
+        ViktLabel5.Size = New System.Drawing.Size(40, 20)
+        ViktLabel5.TabIndex = 97
+        ViktLabel5.Text = "Vikt:"
+        '
+        'ViktLabel6
+        '
+        ViktLabel6.AutoSize = True
+        ViktLabel6.Location = New System.Drawing.Point(489, 266)
+        ViktLabel6.Name = "ViktLabel6"
+        ViktLabel6.Size = New System.Drawing.Size(40, 20)
+        ViktLabel6.TabIndex = 141
+        ViktLabel6.Text = "Vikt:"
+        '
+        'EN_BeskrivningLabel4
+        '
+        EN_BeskrivningLabel4.AutoSize = True
+        EN_BeskrivningLabel4.Location = New System.Drawing.Point(84, 462)
+        EN_BeskrivningLabel4.Name = "EN_BeskrivningLabel4"
+        EN_BeskrivningLabel4.Size = New System.Drawing.Size(120, 20)
+        EN_BeskrivningLabel4.TabIndex = 138
+        EN_BeskrivningLabel4.Text = "EN Beskrivning:"
+        '
+        'EN_Detaljerad_beskrivningLabel4
+        '
+        EN_Detaljerad_beskrivningLabel4.AutoSize = True
+        EN_Detaljerad_beskrivningLabel4.Location = New System.Drawing.Point(9, 494)
+        EN_Detaljerad_beskrivningLabel4.Name = "EN_Detaljerad_beskrivningLabel4"
+        EN_Detaljerad_beskrivningLabel4.Size = New System.Drawing.Size(195, 20)
+        EN_Detaljerad_beskrivningLabel4.TabIndex = 139
+        EN_Detaljerad_beskrivningLabel4.Text = "EN Detaljerad beskrivning:"
+        '
+        'EN_BeskrivningLabel5
+        '
+        EN_BeskrivningLabel5.AutoSize = True
+        EN_BeskrivningLabel5.Location = New System.Drawing.Point(79, 517)
+        EN_BeskrivningLabel5.Name = "EN_BeskrivningLabel5"
+        EN_BeskrivningLabel5.Size = New System.Drawing.Size(120, 20)
+        EN_BeskrivningLabel5.TabIndex = 141
+        EN_BeskrivningLabel5.Text = "EN Beskrivning:"
+        '
+        'EN_Detaljerad_beskrivningLabel5
+        '
+        EN_Detaljerad_beskrivningLabel5.AutoSize = True
+        EN_Detaljerad_beskrivningLabel5.Location = New System.Drawing.Point(4, 549)
+        EN_Detaljerad_beskrivningLabel5.Name = "EN_Detaljerad_beskrivningLabel5"
+        EN_Detaljerad_beskrivningLabel5.Size = New System.Drawing.Size(195, 20)
+        EN_Detaljerad_beskrivningLabel5.TabIndex = 142
+        EN_Detaljerad_beskrivningLabel5.Text = "EN Detaljerad beskrivning:"
+        '
+        'EN_BeskrivningLabel6
+        '
+        EN_BeskrivningLabel6.AutoSize = True
+        EN_BeskrivningLabel6.Location = New System.Drawing.Point(84, 466)
+        EN_BeskrivningLabel6.Name = "EN_BeskrivningLabel6"
+        EN_BeskrivningLabel6.Size = New System.Drawing.Size(120, 20)
+        EN_BeskrivningLabel6.TabIndex = 142
+        EN_BeskrivningLabel6.Text = "EN Beskrivning:"
+        '
+        'EN_Detaljerad_beskrivningLabel6
+        '
+        EN_Detaljerad_beskrivningLabel6.AutoSize = True
+        EN_Detaljerad_beskrivningLabel6.Location = New System.Drawing.Point(9, 498)
+        EN_Detaljerad_beskrivningLabel6.Name = "EN_Detaljerad_beskrivningLabel6"
+        EN_Detaljerad_beskrivningLabel6.Size = New System.Drawing.Size(195, 20)
+        EN_Detaljerad_beskrivningLabel6.TabIndex = 143
+        EN_Detaljerad_beskrivningLabel6.Text = "EN Detaljerad beskrivning:"
+        '
         'TabControl1
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
@@ -3144,13 +3261,13 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(635, 580)
         Me.Panel1.TabIndex = 143
         '
-        'ArtikelnrTextBoxAcc
+        'ViktTextBox
         '
-        Me.ArtikelnrTextBoxAcc.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Artikelnr", True))
-        Me.ArtikelnrTextBoxAcc.Location = New System.Drawing.Point(117, 3)
-        Me.ArtikelnrTextBoxAcc.Name = "ArtikelnrTextBoxAcc"
-        Me.ArtikelnrTextBoxAcc.Size = New System.Drawing.Size(100, 26)
-        Me.ArtikelnrTextBoxAcc.TabIndex = 123
+        Me.ViktTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Vikt", True))
+        Me.ViktTextBox.Location = New System.Drawing.Point(525, 135)
+        Me.ViktTextBox.Name = "ViktTextBox"
+        Me.ViktTextBox.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox.TabIndex = 135
         '
         'AccessoarerBindingSource
         '
@@ -3161,6 +3278,14 @@ Partial Class Form1
         '
         Me.CLOREGDBDataSet.DataSetName = "CLOREGDBDataSet"
         Me.CLOREGDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'ArtikelnrTextBoxAcc
+        '
+        Me.ArtikelnrTextBoxAcc.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Artikelnr", True))
+        Me.ArtikelnrTextBoxAcc.Location = New System.Drawing.Point(117, 3)
+        Me.ArtikelnrTextBoxAcc.Name = "ArtikelnrTextBoxAcc"
+        Me.ArtikelnrTextBoxAcc.Size = New System.Drawing.Size(100, 26)
+        Me.ArtikelnrTextBoxAcc.TabIndex = 123
         '
         'TypTextBoxAcc
         '
@@ -3289,7 +3414,7 @@ Partial Class Form1
         'EN_Detaljerad_beskrivningTextBox1
         '
         Me.EN_Detaljerad_beskrivningTextBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "EN Detaljerad beskrivning", True))
-        Me.EN_Detaljerad_beskrivningTextBox1.Location = New System.Drawing.Point(224, 475)
+        Me.EN_Detaljerad_beskrivningTextBox1.Location = New System.Drawing.Point(223, 548)
         Me.EN_Detaljerad_beskrivningTextBox1.MaxLength = 254
         Me.EN_Detaljerad_beskrivningTextBox1.Multiline = True
         Me.EN_Detaljerad_beskrivningTextBox1.Name = "EN_Detaljerad_beskrivningTextBox1"
@@ -3299,7 +3424,7 @@ Partial Class Form1
         'EN_BeskrivningTextBox1
         '
         Me.EN_BeskrivningTextBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "EN Beskrivning", True))
-        Me.EN_BeskrivningTextBox1.Location = New System.Drawing.Point(224, 443)
+        Me.EN_BeskrivningTextBox1.Location = New System.Drawing.Point(223, 516)
         Me.EN_BeskrivningTextBox1.MaxLength = 254
         Me.EN_BeskrivningTextBox1.Name = "EN_BeskrivningTextBox1"
         Me.EN_BeskrivningTextBox1.Size = New System.Drawing.Size(401, 26)
@@ -3313,7 +3438,7 @@ Partial Class Form1
         Me.SV_Detaljerad_beskrivningTextBox1.Multiline = True
         Me.SV_Detaljerad_beskrivningTextBox1.Name = "SV_Detaljerad_beskrivningTextBox1"
         Me.SV_Detaljerad_beskrivningTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.SV_Detaljerad_beskrivningTextBox1.Size = New System.Drawing.Size(401, 197)
+        Me.SV_Detaljerad_beskrivningTextBox1.Size = New System.Drawing.Size(401, 270)
         Me.SV_Detaljerad_beskrivningTextBox1.TabIndex = 106
         '
         'SV_BeskrivningTextBox1
@@ -3730,6 +3855,36 @@ Partial Class Form1
         Me.Panel2.Size = New System.Drawing.Size(634, 578)
         Me.Panel2.TabIndex = 149
         '
+        'EN_Detaljerad_beskrivningTextBox5
+        '
+        Me.EN_Detaljerad_beskrivningTextBox5.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "EN Detaljerad beskrivning", True))
+        Me.EN_Detaljerad_beskrivningTextBox5.Location = New System.Drawing.Point(205, 546)
+        Me.EN_Detaljerad_beskrivningTextBox5.Multiline = True
+        Me.EN_Detaljerad_beskrivningTextBox5.Name = "EN_Detaljerad_beskrivningTextBox5"
+        Me.EN_Detaljerad_beskrivningTextBox5.Size = New System.Drawing.Size(418, 20)
+        Me.EN_Detaljerad_beskrivningTextBox5.TabIndex = 143
+        '
+        'Dam_ByxorBindingSource
+        '
+        Me.Dam_ByxorBindingSource.DataMember = "Dam Byxor"
+        Me.Dam_ByxorBindingSource.DataSource = Me.CLOREGDBDataSet
+        '
+        'EN_BeskrivningTextBox5
+        '
+        Me.EN_BeskrivningTextBox5.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "EN Beskrivning", True))
+        Me.EN_BeskrivningTextBox5.Location = New System.Drawing.Point(205, 514)
+        Me.EN_BeskrivningTextBox5.Name = "EN_BeskrivningTextBox5"
+        Me.EN_BeskrivningTextBox5.Size = New System.Drawing.Size(418, 26)
+        Me.EN_BeskrivningTextBox5.TabIndex = 142
+        '
+        'ViktTextBox1
+        '
+        Me.ViktTextBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Vikt", True))
+        Me.ViktTextBox1.Location = New System.Drawing.Point(523, 170)
+        Me.ViktTextBox1.Name = "ViktTextBox1"
+        Me.ViktTextBox1.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox1.TabIndex = 141
+        '
         'ArtikelnrTextBoxByxor
         '
         Me.ArtikelnrTextBoxByxor.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Artikelnr", True))
@@ -3737,11 +3892,6 @@ Partial Class Form1
         Me.ArtikelnrTextBoxByxor.Name = "ArtikelnrTextBoxByxor"
         Me.ArtikelnrTextBoxByxor.Size = New System.Drawing.Size(100, 26)
         Me.ArtikelnrTextBoxByxor.TabIndex = 2
-        '
-        'Dam_ByxorBindingSource
-        '
-        Me.Dam_ByxorBindingSource.DataMember = "Dam Byxor"
-        Me.Dam_ByxorBindingSource.DataSource = Me.CLOREGDBDataSet
         '
         'HyllaTextBoxByxor
         '
@@ -4347,6 +4497,36 @@ Partial Class Form1
         Me.Panel3.Size = New System.Drawing.Size(628, 523)
         Me.Panel3.TabIndex = 145
         '
+        'EN_Detaljerad_beskrivningTextBox4
+        '
+        Me.EN_Detaljerad_beskrivningTextBox4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "EN Detaljerad beskrivning", True))
+        Me.EN_Detaljerad_beskrivningTextBox4.Location = New System.Drawing.Point(210, 491)
+        Me.EN_Detaljerad_beskrivningTextBox4.Multiline = True
+        Me.EN_Detaljerad_beskrivningTextBox4.Name = "EN_Detaljerad_beskrivningTextBox4"
+        Me.EN_Detaljerad_beskrivningTextBox4.Size = New System.Drawing.Size(411, 20)
+        Me.EN_Detaljerad_beskrivningTextBox4.TabIndex = 140
+        '
+        'Dam_JackaBindingSource
+        '
+        Me.Dam_JackaBindingSource.DataMember = "Dam Jacka"
+        Me.Dam_JackaBindingSource.DataSource = Me.CLOREGDBDataSet
+        '
+        'EN_BeskrivningTextBox4
+        '
+        Me.EN_BeskrivningTextBox4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "EN Beskrivning", True))
+        Me.EN_BeskrivningTextBox4.Location = New System.Drawing.Point(210, 459)
+        Me.EN_BeskrivningTextBox4.Name = "EN_BeskrivningTextBox4"
+        Me.EN_BeskrivningTextBox4.Size = New System.Drawing.Size(411, 26)
+        Me.EN_BeskrivningTextBox4.TabIndex = 139
+        '
+        'ViktTextBox2
+        '
+        Me.ViktTextBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Vikt", True))
+        Me.ViktTextBox2.Location = New System.Drawing.Point(520, 233)
+        Me.ViktTextBox2.Name = "ViktTextBox2"
+        Me.ViktTextBox2.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox2.TabIndex = 138
+        '
         'ArtikelnrTextBoxJacka
         '
         Me.ArtikelnrTextBoxJacka.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Artikelnr", True))
@@ -4354,11 +4534,6 @@ Partial Class Form1
         Me.ArtikelnrTextBoxJacka.Name = "ArtikelnrTextBoxJacka"
         Me.ArtikelnrTextBoxJacka.Size = New System.Drawing.Size(100, 26)
         Me.ArtikelnrTextBoxJacka.TabIndex = 98
-        '
-        'Dam_JackaBindingSource
-        '
-        Me.Dam_JackaBindingSource.DataMember = "Dam Jacka"
-        Me.Dam_JackaBindingSource.DataSource = Me.CLOREGDBDataSet
         '
         'HyllaTextBoxJacka
         '
@@ -4947,8 +5122,21 @@ Partial Class Form1
         Me.Panel4.Enabled = False
         Me.Panel4.Location = New System.Drawing.Point(165, 13)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(654, 581)
+        Me.Panel4.Size = New System.Drawing.Size(654, 524)
         Me.Panel4.TabIndex = 141
+        '
+        'ViktTextBox3
+        '
+        Me.ViktTextBox3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "Vikt", True))
+        Me.ViktTextBox3.Location = New System.Drawing.Point(542, 266)
+        Me.ViktTextBox3.Name = "ViktTextBox3"
+        Me.ViktTextBox3.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox3.TabIndex = 134
+        '
+        'Dam_KjolBindingSource
+        '
+        Me.Dam_KjolBindingSource.DataMember = "Dam Kjol"
+        Me.Dam_KjolBindingSource.DataSource = Me.CLOREGDBDataSet
         '
         'ArtikelnrTextBoxKjol
         '
@@ -4957,11 +5145,6 @@ Partial Class Form1
         Me.ArtikelnrTextBoxKjol.Name = "ArtikelnrTextBoxKjol"
         Me.ArtikelnrTextBoxKjol.Size = New System.Drawing.Size(100, 26)
         Me.ArtikelnrTextBoxKjol.TabIndex = 90
-        '
-        'Dam_KjolBindingSource
-        '
-        Me.Dam_KjolBindingSource.DataMember = "Dam Kjol"
-        Me.Dam_KjolBindingSource.DataSource = Me.CLOREGDBDataSet
         '
         'HyllaTextBoxKjol
         '
@@ -5016,7 +5199,7 @@ Partial Class Form1
         'EN_Detaljerad_beskrivningTextBox3
         '
         Me.EN_Detaljerad_beskrivningTextBox3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "EN Detaljerad beskrivning", True))
-        Me.EN_Detaljerad_beskrivningTextBox3.Location = New System.Drawing.Point(218, 555)
+        Me.EN_Detaljerad_beskrivningTextBox3.Location = New System.Drawing.Point(217, 482)
         Me.EN_Detaljerad_beskrivningTextBox3.Multiline = True
         Me.EN_Detaljerad_beskrivningTextBox3.Name = "EN_Detaljerad_beskrivningTextBox3"
         Me.EN_Detaljerad_beskrivningTextBox3.Size = New System.Drawing.Size(424, 23)
@@ -5033,7 +5216,7 @@ Partial Class Form1
         'EN_BeskrivningTextBox3
         '
         Me.EN_BeskrivningTextBox3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "EN Beskrivning", True))
-        Me.EN_BeskrivningTextBox3.Location = New System.Drawing.Point(218, 523)
+        Me.EN_BeskrivningTextBox3.Location = New System.Drawing.Point(217, 450)
         Me.EN_BeskrivningTextBox3.Name = "EN_BeskrivningTextBox3"
         Me.EN_BeskrivningTextBox3.Size = New System.Drawing.Size(424, 26)
         Me.EN_BeskrivningTextBox3.TabIndex = 123
@@ -5062,7 +5245,7 @@ Partial Class Form1
         Me.SV_Detaljerad_beskrivningTextBox3.Multiline = True
         Me.SV_Detaljerad_beskrivningTextBox3.Name = "SV_Detaljerad_beskrivningTextBox3"
         Me.SV_Detaljerad_beskrivningTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.SV_Detaljerad_beskrivningTextBox3.Size = New System.Drawing.Size(424, 187)
+        Me.SV_Detaljerad_beskrivningTextBox3.Size = New System.Drawing.Size(424, 114)
         Me.SV_Detaljerad_beskrivningTextBox3.TabIndex = 122
         '
         'SetSizeBtnKjol
@@ -5599,6 +5782,19 @@ Partial Class Form1
         Me.Panel5.Size = New System.Drawing.Size(630, 526)
         Me.Panel5.TabIndex = 146
         '
+        'ViktTextBox4
+        '
+        Me.ViktTextBox4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KlänningBindingSource, "Vikt", True))
+        Me.ViktTextBox4.Location = New System.Drawing.Point(520, 291)
+        Me.ViktTextBox4.Name = "ViktTextBox4"
+        Me.ViktTextBox4.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox4.TabIndex = 140
+        '
+        'Dam_KlänningBindingSource
+        '
+        Me.Dam_KlänningBindingSource.DataMember = "Dam Klänning"
+        Me.Dam_KlänningBindingSource.DataSource = Me.CLOREGDBDataSet
+        '
         'ArtikelnrTextBoxKlanning
         '
         Me.ArtikelnrTextBoxKlanning.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KlänningBindingSource, "Artikelnr", True))
@@ -5606,11 +5802,6 @@ Partial Class Form1
         Me.ArtikelnrTextBoxKlanning.Name = "ArtikelnrTextBoxKlanning"
         Me.ArtikelnrTextBoxKlanning.Size = New System.Drawing.Size(100, 26)
         Me.ArtikelnrTextBoxKlanning.TabIndex = 90
-        '
-        'Dam_KlänningBindingSource
-        '
-        Me.Dam_KlänningBindingSource.DataMember = "Dam Klänning"
-        Me.Dam_KlänningBindingSource.DataSource = Me.CLOREGDBDataSet
         '
         'PlaggTextBoxKlanning
         '
@@ -6292,6 +6483,19 @@ Partial Class Form1
         Me.Panel6.Size = New System.Drawing.Size(683, 565)
         Me.Panel6.TabIndex = 105
         '
+        'ViktTextBox5
+        '
+        Me.ViktTextBox5.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ToppBindingSource, "Vikt", True))
+        Me.ViktTextBox5.Location = New System.Drawing.Point(577, 259)
+        Me.ViktTextBox5.Name = "ViktTextBox5"
+        Me.ViktTextBox5.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox5.TabIndex = 98
+        '
+        'Dam_ToppBindingSource
+        '
+        Me.Dam_ToppBindingSource.DataMember = "Dam Topp"
+        Me.Dam_ToppBindingSource.DataSource = Me.CLOREGDBDataSet
+        '
         'ArtikelnrTextBoxToppar
         '
         Me.ArtikelnrTextBoxToppar.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ToppBindingSource, "Artikelnr", True))
@@ -6300,11 +6504,6 @@ Partial Class Form1
         Me.ArtikelnrTextBoxToppar.Name = "ArtikelnrTextBoxToppar"
         Me.ArtikelnrTextBoxToppar.Size = New System.Drawing.Size(100, 26)
         Me.ArtikelnrTextBoxToppar.TabIndex = 2
-        '
-        'Dam_ToppBindingSource
-        '
-        Me.Dam_ToppBindingSource.DataMember = "Dam Topp"
-        Me.Dam_ToppBindingSource.DataSource = Me.CLOREGDBDataSet
         '
         'PlaggTextBoxToppar
         '
@@ -6998,6 +7197,35 @@ Partial Class Form1
         Me.Panel7.Size = New System.Drawing.Size(644, 526)
         Me.Panel7.TabIndex = 148
         '
+        'EN_Detaljerad_beskrivningTextBox6
+        '
+        Me.EN_Detaljerad_beskrivningTextBox6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JumpsuitBindingSource, "EN Detaljerad beskrivning", True))
+        Me.EN_Detaljerad_beskrivningTextBox6.Location = New System.Drawing.Point(210, 495)
+        Me.EN_Detaljerad_beskrivningTextBox6.Name = "EN_Detaljerad_beskrivningTextBox6"
+        Me.EN_Detaljerad_beskrivningTextBox6.Size = New System.Drawing.Size(425, 26)
+        Me.EN_Detaljerad_beskrivningTextBox6.TabIndex = 144
+        '
+        'Dam_JumpsuitBindingSource
+        '
+        Me.Dam_JumpsuitBindingSource.DataMember = "Dam Jumpsuit"
+        Me.Dam_JumpsuitBindingSource.DataSource = Me.CLOREGDBDataSet
+        '
+        'EN_BeskrivningTextBox6
+        '
+        Me.EN_BeskrivningTextBox6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JumpsuitBindingSource, "EN Beskrivning", True))
+        Me.EN_BeskrivningTextBox6.Location = New System.Drawing.Point(210, 463)
+        Me.EN_BeskrivningTextBox6.Name = "EN_BeskrivningTextBox6"
+        Me.EN_BeskrivningTextBox6.Size = New System.Drawing.Size(425, 26)
+        Me.EN_BeskrivningTextBox6.TabIndex = 143
+        '
+        'ViktTextBox6
+        '
+        Me.ViktTextBox6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JumpsuitBindingSource, "Vikt", True))
+        Me.ViktTextBox6.Location = New System.Drawing.Point(535, 263)
+        Me.ViktTextBox6.Name = "ViktTextBox6"
+        Me.ViktTextBox6.Size = New System.Drawing.Size(100, 26)
+        Me.ViktTextBox6.TabIndex = 142
+        '
         'ArtikelnrTextBoxJumpsuit
         '
         Me.ArtikelnrTextBoxJumpsuit.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JumpsuitBindingSource, "Artikelnr", True))
@@ -7005,11 +7233,6 @@ Partial Class Form1
         Me.ArtikelnrTextBoxJumpsuit.Name = "ArtikelnrTextBoxJumpsuit"
         Me.ArtikelnrTextBoxJumpsuit.Size = New System.Drawing.Size(100, 26)
         Me.ArtikelnrTextBoxJumpsuit.TabIndex = 98
-        '
-        'Dam_JumpsuitBindingSource
-        '
-        Me.Dam_JumpsuitBindingSource.DataMember = "Dam Jumpsuit"
-        Me.Dam_JumpsuitBindingSource.DataSource = Me.CLOREGDBDataSet
         '
         'PlaggTextBoxJumpsuit
         '
@@ -7579,229 +7802,6 @@ Partial Class Form1
         'Dam_JumpsuitTableAdapter
         '
         Me.Dam_JumpsuitTableAdapter.ClearBeforeFill = True
-        '
-        'ViktLabel
-        '
-        ViktLabel.AutoSize = True
-        ViktLabel.Location = New System.Drawing.Point(479, 138)
-        ViktLabel.Name = "ViktLabel"
-        ViktLabel.Size = New System.Drawing.Size(40, 20)
-        ViktLabel.TabIndex = 134
-        ViktLabel.Text = "Vikt:"
-        '
-        'ViktTextBox
-        '
-        Me.ViktTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Vikt", True))
-        Me.ViktTextBox.Location = New System.Drawing.Point(525, 135)
-        Me.ViktTextBox.Name = "ViktTextBox"
-        Me.ViktTextBox.Size = New System.Drawing.Size(100, 26)
-        Me.ViktTextBox.TabIndex = 135
-        '
-        'ViktLabel1
-        '
-        ViktLabel1.AutoSize = True
-        ViktLabel1.Location = New System.Drawing.Point(477, 173)
-        ViktLabel1.Name = "ViktLabel1"
-        ViktLabel1.Size = New System.Drawing.Size(40, 20)
-        ViktLabel1.TabIndex = 140
-        ViktLabel1.Text = "Vikt:"
-        '
-        'ViktTextBox1
-        '
-        Me.ViktTextBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Vikt", True))
-        Me.ViktTextBox1.Location = New System.Drawing.Point(523, 170)
-        Me.ViktTextBox1.Name = "ViktTextBox1"
-        Me.ViktTextBox1.Size = New System.Drawing.Size(100, 26)
-        Me.ViktTextBox1.TabIndex = 141
-        '
-        'ViktLabel2
-        '
-        ViktLabel2.AutoSize = True
-        ViktLabel2.Location = New System.Drawing.Point(474, 236)
-        ViktLabel2.Name = "ViktLabel2"
-        ViktLabel2.Size = New System.Drawing.Size(40, 20)
-        ViktLabel2.TabIndex = 137
-        ViktLabel2.Text = "Vikt:"
-        '
-        'ViktTextBox2
-        '
-        Me.ViktTextBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Vikt", True))
-        Me.ViktTextBox2.Location = New System.Drawing.Point(520, 233)
-        Me.ViktTextBox2.Name = "ViktTextBox2"
-        Me.ViktTextBox2.Size = New System.Drawing.Size(100, 26)
-        Me.ViktTextBox2.TabIndex = 138
-        '
-        'ViktLabel3
-        '
-        ViktLabel3.AutoSize = True
-        ViktLabel3.Location = New System.Drawing.Point(496, 269)
-        ViktLabel3.Name = "ViktLabel3"
-        ViktLabel3.Size = New System.Drawing.Size(40, 20)
-        ViktLabel3.TabIndex = 133
-        ViktLabel3.Text = "Vikt:"
-        '
-        'ViktTextBox3
-        '
-        Me.ViktTextBox3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "Vikt", True))
-        Me.ViktTextBox3.Location = New System.Drawing.Point(542, 266)
-        Me.ViktTextBox3.Name = "ViktTextBox3"
-        Me.ViktTextBox3.Size = New System.Drawing.Size(100, 26)
-        Me.ViktTextBox3.TabIndex = 134
-        '
-        'ViktLabel4
-        '
-        ViktLabel4.AutoSize = True
-        ViktLabel4.Location = New System.Drawing.Point(474, 294)
-        ViktLabel4.Name = "ViktLabel4"
-        ViktLabel4.Size = New System.Drawing.Size(40, 20)
-        ViktLabel4.TabIndex = 139
-        ViktLabel4.Text = "Vikt:"
-        '
-        'ViktTextBox4
-        '
-        Me.ViktTextBox4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KlänningBindingSource, "Vikt", True))
-        Me.ViktTextBox4.Location = New System.Drawing.Point(520, 291)
-        Me.ViktTextBox4.Name = "ViktTextBox4"
-        Me.ViktTextBox4.Size = New System.Drawing.Size(100, 26)
-        Me.ViktTextBox4.TabIndex = 140
-        '
-        'ViktLabel5
-        '
-        ViktLabel5.AutoSize = True
-        ViktLabel5.Location = New System.Drawing.Point(531, 262)
-        ViktLabel5.Name = "ViktLabel5"
-        ViktLabel5.Size = New System.Drawing.Size(40, 20)
-        ViktLabel5.TabIndex = 97
-        ViktLabel5.Text = "Vikt:"
-        '
-        'ViktTextBox5
-        '
-        Me.ViktTextBox5.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ToppBindingSource, "Vikt", True))
-        Me.ViktTextBox5.Location = New System.Drawing.Point(577, 259)
-        Me.ViktTextBox5.Name = "ViktTextBox5"
-        Me.ViktTextBox5.Size = New System.Drawing.Size(100, 26)
-        Me.ViktTextBox5.TabIndex = 98
-        '
-        'ViktLabel6
-        '
-        ViktLabel6.AutoSize = True
-        ViktLabel6.Location = New System.Drawing.Point(489, 266)
-        ViktLabel6.Name = "ViktLabel6"
-        ViktLabel6.Size = New System.Drawing.Size(40, 20)
-        ViktLabel6.TabIndex = 141
-        ViktLabel6.Text = "Vikt:"
-        '
-        'ViktTextBox6
-        '
-        Me.ViktTextBox6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JumpsuitBindingSource, "Vikt", True))
-        Me.ViktTextBox6.Location = New System.Drawing.Point(535, 263)
-        Me.ViktTextBox6.Name = "ViktTextBox6"
-        Me.ViktTextBox6.Size = New System.Drawing.Size(100, 26)
-        Me.ViktTextBox6.TabIndex = 142
-        '
-        'EN_BeskrivningLabel4
-        '
-        EN_BeskrivningLabel4.AutoSize = True
-        EN_BeskrivningLabel4.Location = New System.Drawing.Point(84, 462)
-        EN_BeskrivningLabel4.Name = "EN_BeskrivningLabel4"
-        EN_BeskrivningLabel4.Size = New System.Drawing.Size(120, 20)
-        EN_BeskrivningLabel4.TabIndex = 138
-        EN_BeskrivningLabel4.Text = "EN Beskrivning:"
-        '
-        'EN_BeskrivningTextBox4
-        '
-        Me.EN_BeskrivningTextBox4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "EN Beskrivning", True))
-        Me.EN_BeskrivningTextBox4.Location = New System.Drawing.Point(210, 459)
-        Me.EN_BeskrivningTextBox4.Name = "EN_BeskrivningTextBox4"
-        Me.EN_BeskrivningTextBox4.Size = New System.Drawing.Size(411, 26)
-        Me.EN_BeskrivningTextBox4.TabIndex = 139
-        '
-        'EN_Detaljerad_beskrivningLabel4
-        '
-        EN_Detaljerad_beskrivningLabel4.AutoSize = True
-        EN_Detaljerad_beskrivningLabel4.Location = New System.Drawing.Point(9, 494)
-        EN_Detaljerad_beskrivningLabel4.Name = "EN_Detaljerad_beskrivningLabel4"
-        EN_Detaljerad_beskrivningLabel4.Size = New System.Drawing.Size(195, 20)
-        EN_Detaljerad_beskrivningLabel4.TabIndex = 139
-        EN_Detaljerad_beskrivningLabel4.Text = "EN Detaljerad beskrivning:"
-        '
-        'EN_Detaljerad_beskrivningTextBox4
-        '
-        Me.EN_Detaljerad_beskrivningTextBox4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "EN Detaljerad beskrivning", True))
-        Me.EN_Detaljerad_beskrivningTextBox4.Location = New System.Drawing.Point(210, 491)
-        Me.EN_Detaljerad_beskrivningTextBox4.Multiline = True
-        Me.EN_Detaljerad_beskrivningTextBox4.Name = "EN_Detaljerad_beskrivningTextBox4"
-        Me.EN_Detaljerad_beskrivningTextBox4.Size = New System.Drawing.Size(411, 20)
-        Me.EN_Detaljerad_beskrivningTextBox4.TabIndex = 140
-        '
-        'EN_BeskrivningLabel5
-        '
-        EN_BeskrivningLabel5.AutoSize = True
-        EN_BeskrivningLabel5.Location = New System.Drawing.Point(79, 517)
-        EN_BeskrivningLabel5.Name = "EN_BeskrivningLabel5"
-        EN_BeskrivningLabel5.Size = New System.Drawing.Size(120, 20)
-        EN_BeskrivningLabel5.TabIndex = 141
-        EN_BeskrivningLabel5.Text = "EN Beskrivning:"
-        '
-        'EN_BeskrivningTextBox5
-        '
-        Me.EN_BeskrivningTextBox5.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "EN Beskrivning", True))
-        Me.EN_BeskrivningTextBox5.Location = New System.Drawing.Point(205, 514)
-        Me.EN_BeskrivningTextBox5.Name = "EN_BeskrivningTextBox5"
-        Me.EN_BeskrivningTextBox5.Size = New System.Drawing.Size(418, 26)
-        Me.EN_BeskrivningTextBox5.TabIndex = 142
-        '
-        'EN_Detaljerad_beskrivningLabel5
-        '
-        EN_Detaljerad_beskrivningLabel5.AutoSize = True
-        EN_Detaljerad_beskrivningLabel5.Location = New System.Drawing.Point(4, 549)
-        EN_Detaljerad_beskrivningLabel5.Name = "EN_Detaljerad_beskrivningLabel5"
-        EN_Detaljerad_beskrivningLabel5.Size = New System.Drawing.Size(195, 20)
-        EN_Detaljerad_beskrivningLabel5.TabIndex = 142
-        EN_Detaljerad_beskrivningLabel5.Text = "EN Detaljerad beskrivning:"
-        '
-        'EN_Detaljerad_beskrivningTextBox5
-        '
-        Me.EN_Detaljerad_beskrivningTextBox5.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "EN Detaljerad beskrivning", True))
-        Me.EN_Detaljerad_beskrivningTextBox5.Location = New System.Drawing.Point(205, 546)
-        Me.EN_Detaljerad_beskrivningTextBox5.Multiline = True
-        Me.EN_Detaljerad_beskrivningTextBox5.Name = "EN_Detaljerad_beskrivningTextBox5"
-        Me.EN_Detaljerad_beskrivningTextBox5.Size = New System.Drawing.Size(418, 20)
-        Me.EN_Detaljerad_beskrivningTextBox5.TabIndex = 143
-        '
-        'EN_BeskrivningLabel6
-        '
-        EN_BeskrivningLabel6.AutoSize = True
-        EN_BeskrivningLabel6.Location = New System.Drawing.Point(84, 466)
-        EN_BeskrivningLabel6.Name = "EN_BeskrivningLabel6"
-        EN_BeskrivningLabel6.Size = New System.Drawing.Size(120, 20)
-        EN_BeskrivningLabel6.TabIndex = 142
-        EN_BeskrivningLabel6.Text = "EN Beskrivning:"
-        '
-        'EN_BeskrivningTextBox6
-        '
-        Me.EN_BeskrivningTextBox6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JumpsuitBindingSource, "EN Beskrivning", True))
-        Me.EN_BeskrivningTextBox6.Location = New System.Drawing.Point(210, 463)
-        Me.EN_BeskrivningTextBox6.Name = "EN_BeskrivningTextBox6"
-        Me.EN_BeskrivningTextBox6.Size = New System.Drawing.Size(425, 26)
-        Me.EN_BeskrivningTextBox6.TabIndex = 143
-        '
-        'EN_Detaljerad_beskrivningLabel6
-        '
-        EN_Detaljerad_beskrivningLabel6.AutoSize = True
-        EN_Detaljerad_beskrivningLabel6.Location = New System.Drawing.Point(9, 498)
-        EN_Detaljerad_beskrivningLabel6.Name = "EN_Detaljerad_beskrivningLabel6"
-        EN_Detaljerad_beskrivningLabel6.Size = New System.Drawing.Size(195, 20)
-        EN_Detaljerad_beskrivningLabel6.TabIndex = 143
-        EN_Detaljerad_beskrivningLabel6.Text = "EN Detaljerad beskrivning:"
-        '
-        'EN_Detaljerad_beskrivningTextBox6
-        '
-        Me.EN_Detaljerad_beskrivningTextBox6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JumpsuitBindingSource, "EN Detaljerad beskrivning", True))
-        Me.EN_Detaljerad_beskrivningTextBox6.Location = New System.Drawing.Point(210, 495)
-        Me.EN_Detaljerad_beskrivningTextBox6.Name = "EN_Detaljerad_beskrivningTextBox6"
-        Me.EN_Detaljerad_beskrivningTextBox6.Size = New System.Drawing.Size(425, 26)
-        Me.EN_Detaljerad_beskrivningTextBox6.TabIndex = 144
         '
         'Form1
         '
