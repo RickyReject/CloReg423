@@ -26,7 +26,23 @@ Partial Class Form2
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.LabelP = New System.Windows.Forms.Label()
+        Me.CheckBox16 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox15 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox14 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox10 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.LabelQ = New System.Windows.Forms.Label()
         Me.LabelO = New System.Windows.Forms.Label()
         Me.LabelN = New System.Windows.Forms.Label()
         Me.LabelM = New System.Windows.Forms.Label()
@@ -39,7 +55,7 @@ Partial Class Form2
         Me.LabelG = New System.Windows.Forms.Label()
         Me.LabelF = New System.Windows.Forms.Label()
         Me.LabelE = New System.Windows.Forms.Label()
-        Me.TextBoxP = New System.Windows.Forms.TextBox()
+        Me.TextBoxQ = New System.Windows.Forms.TextBox()
         Me.TextBoxO = New System.Windows.Forms.TextBox()
         Me.TextBoxN = New System.Windows.Forms.TextBox()
         Me.TextBoxM = New System.Windows.Forms.TextBox()
@@ -60,22 +76,9 @@ Partial Class Form2
         Me.LabelB = New System.Windows.Forms.Label()
         Me.LabelA = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox10 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox14 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox15 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox16 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
+        Me.TextBoxP = New System.Windows.Forms.TextBox()
+        Me.LabelP = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -111,6 +114,9 @@ Partial Class Form2
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.LabelP)
+        Me.Panel1.Controls.Add(Me.TextBoxP)
+        Me.Panel1.Controls.Add(Me.CheckBox17)
         Me.Panel1.Controls.Add(Me.CheckBox16)
         Me.Panel1.Controls.Add(Me.CheckBox15)
         Me.Panel1.Controls.Add(Me.CheckBox14)
@@ -127,7 +133,7 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.CheckBox3)
         Me.Panel1.Controls.Add(Me.CheckBox2)
         Me.Panel1.Controls.Add(Me.CheckBox1)
-        Me.Panel1.Controls.Add(Me.LabelP)
+        Me.Panel1.Controls.Add(Me.LabelQ)
         Me.Panel1.Controls.Add(Me.LabelO)
         Me.Panel1.Controls.Add(Me.LabelN)
         Me.Panel1.Controls.Add(Me.LabelM)
@@ -140,7 +146,7 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.LabelG)
         Me.Panel1.Controls.Add(Me.LabelF)
         Me.Panel1.Controls.Add(Me.LabelE)
-        Me.Panel1.Controls.Add(Me.TextBoxP)
+        Me.Panel1.Controls.Add(Me.TextBoxQ)
         Me.Panel1.Controls.Add(Me.TextBoxO)
         Me.Panel1.Controls.Add(Me.TextBoxN)
         Me.Panel1.Controls.Add(Me.TextBoxM)
@@ -165,15 +171,159 @@ Partial Class Form2
         Me.Panel1.Size = New System.Drawing.Size(423, 370)
         Me.Panel1.TabIndex = 14
         '
-        'LabelP
+        'CheckBox16
         '
-        Me.LabelP.AutoSize = True
-        Me.LabelP.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.LabelP.Location = New System.Drawing.Point(361, 177)
-        Me.LabelP.Name = "LabelP"
-        Me.LabelP.Size = New System.Drawing.Size(47, 20)
-        Me.LabelP.TabIndex = 38
-        Me.LabelP.Text = "övrigt"
+        Me.CheckBox16.AutoSize = True
+        Me.CheckBox16.Location = New System.Drawing.Point(234, 180)
+        Me.CheckBox16.Name = "CheckBox16"
+        Me.CheckBox16.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox16.TabIndex = 54
+        Me.CheckBox16.UseVisualStyleBackColor = True
+        '
+        'CheckBox15
+        '
+        Me.CheckBox15.AutoSize = True
+        Me.CheckBox15.Location = New System.Drawing.Point(234, 150)
+        Me.CheckBox15.Name = "CheckBox15"
+        Me.CheckBox15.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox15.TabIndex = 53
+        Me.CheckBox15.UseVisualStyleBackColor = True
+        '
+        'CheckBox14
+        '
+        Me.CheckBox14.AutoSize = True
+        Me.CheckBox14.Location = New System.Drawing.Point(234, 118)
+        Me.CheckBox14.Name = "CheckBox14"
+        Me.CheckBox14.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox14.TabIndex = 52
+        Me.CheckBox14.UseVisualStyleBackColor = True
+        '
+        'CheckBox13
+        '
+        Me.CheckBox13.AutoSize = True
+        Me.CheckBox13.Location = New System.Drawing.Point(234, 86)
+        Me.CheckBox13.Name = "CheckBox13"
+        Me.CheckBox13.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox13.TabIndex = 51
+        Me.CheckBox13.UseVisualStyleBackColor = True
+        '
+        'CheckBox12
+        '
+        Me.CheckBox12.AutoSize = True
+        Me.CheckBox12.Location = New System.Drawing.Point(234, 54)
+        Me.CheckBox12.Name = "CheckBox12"
+        Me.CheckBox12.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox12.TabIndex = 50
+        Me.CheckBox12.UseVisualStyleBackColor = True
+        '
+        'CheckBox11
+        '
+        Me.CheckBox11.AutoSize = True
+        Me.CheckBox11.Location = New System.Drawing.Point(234, 22)
+        Me.CheckBox11.Name = "CheckBox11"
+        Me.CheckBox11.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox11.TabIndex = 49
+        Me.CheckBox11.UseVisualStyleBackColor = True
+        '
+        'CheckBox10
+        '
+        Me.CheckBox10.AutoSize = True
+        Me.CheckBox10.Location = New System.Drawing.Point(11, 310)
+        Me.CheckBox10.Name = "CheckBox10"
+        Me.CheckBox10.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox10.TabIndex = 48
+        Me.CheckBox10.UseVisualStyleBackColor = True
+        '
+        'CheckBox9
+        '
+        Me.CheckBox9.AutoSize = True
+        Me.CheckBox9.Location = New System.Drawing.Point(11, 278)
+        Me.CheckBox9.Name = "CheckBox9"
+        Me.CheckBox9.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox9.TabIndex = 47
+        Me.CheckBox9.UseVisualStyleBackColor = True
+        '
+        'CheckBox8
+        '
+        Me.CheckBox8.AutoSize = True
+        Me.CheckBox8.Location = New System.Drawing.Point(11, 246)
+        Me.CheckBox8.Name = "CheckBox8"
+        Me.CheckBox8.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox8.TabIndex = 46
+        Me.CheckBox8.UseVisualStyleBackColor = True
+        '
+        'CheckBox7
+        '
+        Me.CheckBox7.AutoSize = True
+        Me.CheckBox7.Location = New System.Drawing.Point(11, 214)
+        Me.CheckBox7.Name = "CheckBox7"
+        Me.CheckBox7.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox7.TabIndex = 45
+        Me.CheckBox7.UseVisualStyleBackColor = True
+        '
+        'CheckBox6
+        '
+        Me.CheckBox6.AutoSize = True
+        Me.CheckBox6.Location = New System.Drawing.Point(11, 180)
+        Me.CheckBox6.Name = "CheckBox6"
+        Me.CheckBox6.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox6.TabIndex = 44
+        Me.CheckBox6.UseVisualStyleBackColor = True
+        '
+        'CheckBox5
+        '
+        Me.CheckBox5.AutoSize = True
+        Me.CheckBox5.Location = New System.Drawing.Point(11, 150)
+        Me.CheckBox5.Name = "CheckBox5"
+        Me.CheckBox5.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox5.TabIndex = 43
+        Me.CheckBox5.UseVisualStyleBackColor = True
+        '
+        'CheckBox4
+        '
+        Me.CheckBox4.AutoSize = True
+        Me.CheckBox4.Location = New System.Drawing.Point(11, 115)
+        Me.CheckBox4.Name = "CheckBox4"
+        Me.CheckBox4.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox4.TabIndex = 42
+        Me.CheckBox4.UseVisualStyleBackColor = True
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Location = New System.Drawing.Point(11, 84)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox3.TabIndex = 41
+        Me.CheckBox3.UseVisualStyleBackColor = True
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Location = New System.Drawing.Point(11, 51)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox2.TabIndex = 40
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(11, 20)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox1.TabIndex = 39
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'LabelQ
+        '
+        Me.LabelQ.AutoSize = True
+        Me.LabelQ.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.LabelQ.Location = New System.Drawing.Point(360, 208)
+        Me.LabelQ.Name = "LabelQ"
+        Me.LabelQ.Size = New System.Drawing.Size(47, 20)
+        Me.LabelQ.TabIndex = 38
+        Me.LabelQ.Text = "övrigt"
         '
         'LabelO
         '
@@ -292,13 +442,13 @@ Partial Class Form2
         Me.LabelE.TabIndex = 24
         Me.LabelE.Text = "akryl"
         '
-        'TextBoxP
+        'TextBoxQ
         '
-        Me.TextBoxP.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.TextBoxP.Location = New System.Drawing.Point(255, 174)
-        Me.TextBoxP.Name = "TextBoxP"
-        Me.TextBoxP.Size = New System.Drawing.Size(100, 26)
-        Me.TextBoxP.TabIndex = 23
+        Me.TextBoxQ.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.TextBoxQ.Location = New System.Drawing.Point(255, 206)
+        Me.TextBoxQ.Name = "TextBoxQ"
+        Me.TextBoxQ.Size = New System.Drawing.Size(100, 26)
+        Me.TextBoxQ.TabIndex = 23
         '
         'TextBoxO
         '
@@ -470,149 +620,32 @@ Partial Class Form2
         Me.Button1.Text = "ok"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'CheckBox1
+        'CheckBox17
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(11, 20)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox1.TabIndex = 39
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.CheckBox17.AutoSize = True
+        Me.CheckBox17.Location = New System.Drawing.Point(234, 214)
+        Me.CheckBox17.Name = "CheckBox17"
+        Me.CheckBox17.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox17.TabIndex = 55
+        Me.CheckBox17.UseVisualStyleBackColor = True
         '
-        'CheckBox2
+        'TextBoxP
         '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(11, 51)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox2.TabIndex = 40
-        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.TextBoxP.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.TextBoxP.Location = New System.Drawing.Point(255, 174)
+        Me.TextBoxP.Name = "TextBoxP"
+        Me.TextBoxP.Size = New System.Drawing.Size(100, 26)
+        Me.TextBoxP.TabIndex = 56
         '
-        'CheckBox3
+        'LabelP
         '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(11, 84)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox3.TabIndex = 41
-        Me.CheckBox3.UseVisualStyleBackColor = True
-        '
-        'CheckBox4
-        '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(11, 115)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox4.TabIndex = 42
-        Me.CheckBox4.UseVisualStyleBackColor = True
-        '
-        'CheckBox5
-        '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(11, 150)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox5.TabIndex = 43
-        Me.CheckBox5.UseVisualStyleBackColor = True
-        '
-        'CheckBox6
-        '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(11, 180)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox6.TabIndex = 44
-        Me.CheckBox6.UseVisualStyleBackColor = True
-        '
-        'CheckBox7
-        '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Location = New System.Drawing.Point(11, 214)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox7.TabIndex = 45
-        Me.CheckBox7.UseVisualStyleBackColor = True
-        '
-        'CheckBox8
-        '
-        Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.Location = New System.Drawing.Point(11, 246)
-        Me.CheckBox8.Name = "CheckBox8"
-        Me.CheckBox8.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox8.TabIndex = 46
-        Me.CheckBox8.UseVisualStyleBackColor = True
-        '
-        'CheckBox9
-        '
-        Me.CheckBox9.AutoSize = True
-        Me.CheckBox9.Location = New System.Drawing.Point(11, 278)
-        Me.CheckBox9.Name = "CheckBox9"
-        Me.CheckBox9.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox9.TabIndex = 47
-        Me.CheckBox9.UseVisualStyleBackColor = True
-        '
-        'CheckBox10
-        '
-        Me.CheckBox10.AutoSize = True
-        Me.CheckBox10.Location = New System.Drawing.Point(11, 310)
-        Me.CheckBox10.Name = "CheckBox10"
-        Me.CheckBox10.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox10.TabIndex = 48
-        Me.CheckBox10.UseVisualStyleBackColor = True
-        '
-        'CheckBox11
-        '
-        Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.Location = New System.Drawing.Point(234, 22)
-        Me.CheckBox11.Name = "CheckBox11"
-        Me.CheckBox11.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox11.TabIndex = 49
-        Me.CheckBox11.UseVisualStyleBackColor = True
-        '
-        'CheckBox12
-        '
-        Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.Location = New System.Drawing.Point(234, 54)
-        Me.CheckBox12.Name = "CheckBox12"
-        Me.CheckBox12.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox12.TabIndex = 50
-        Me.CheckBox12.UseVisualStyleBackColor = True
-        '
-        'CheckBox13
-        '
-        Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.Location = New System.Drawing.Point(234, 86)
-        Me.CheckBox13.Name = "CheckBox13"
-        Me.CheckBox13.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox13.TabIndex = 51
-        Me.CheckBox13.UseVisualStyleBackColor = True
-        '
-        'CheckBox14
-        '
-        Me.CheckBox14.AutoSize = True
-        Me.CheckBox14.Location = New System.Drawing.Point(234, 118)
-        Me.CheckBox14.Name = "CheckBox14"
-        Me.CheckBox14.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox14.TabIndex = 52
-        Me.CheckBox14.UseVisualStyleBackColor = True
-        '
-        'CheckBox15
-        '
-        Me.CheckBox15.AutoSize = True
-        Me.CheckBox15.Location = New System.Drawing.Point(234, 150)
-        Me.CheckBox15.Name = "CheckBox15"
-        Me.CheckBox15.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox15.TabIndex = 53
-        Me.CheckBox15.UseVisualStyleBackColor = True
-        '
-        'CheckBox16
-        '
-        Me.CheckBox16.AutoSize = True
-        Me.CheckBox16.Location = New System.Drawing.Point(234, 180)
-        Me.CheckBox16.Name = "CheckBox16"
-        Me.CheckBox16.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox16.TabIndex = 54
-        Me.CheckBox16.UseVisualStyleBackColor = True
+        Me.LabelP.AutoSize = True
+        Me.LabelP.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.LabelP.Location = New System.Drawing.Point(360, 177)
+        Me.LabelP.Name = "LabelP"
+        Me.LabelP.Size = New System.Drawing.Size(48, 20)
+        Me.LabelP.TabIndex = 57
+        Me.LabelP.Text = "Linne"
         '
         'Form2
         '
@@ -636,7 +669,7 @@ Partial Class Form2
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents LabelP As Label
+    Friend WithEvents LabelQ As Label
     Friend WithEvents LabelO As Label
     Friend WithEvents LabelN As Label
     Friend WithEvents LabelM As Label
@@ -649,7 +682,7 @@ Partial Class Form2
     Friend WithEvents LabelG As Label
     Friend WithEvents LabelF As Label
     Friend WithEvents LabelE As Label
-    Friend WithEvents TextBoxP As TextBox
+    Friend WithEvents TextBoxQ As TextBox
     Friend WithEvents TextBoxO As TextBox
     Friend WithEvents TextBoxN As TextBox
     Friend WithEvents TextBoxM As TextBox
@@ -686,4 +719,7 @@ Partial Class Form2
     Friend WithEvents CheckBox3 As CheckBox
     Friend WithEvents CheckBox2 As CheckBox
     Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents TextBoxP As TextBox
+    Friend WithEvents CheckBox17 As CheckBox
+    Friend WithEvents LabelP As Label
 End Class

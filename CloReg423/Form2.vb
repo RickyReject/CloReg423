@@ -289,4 +289,12 @@
             TextBoxP.Text = Nothing
         End If
     End Sub
+
+    Private Sub CheckBox17_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox17.CheckedChanged
+        If CheckBox17.Checked = True Then
+            TextBoxQ.Text = 100
+        Else
+            TextBoxQ.Text = Nothing
+        End If
+    End Sub
 End Class

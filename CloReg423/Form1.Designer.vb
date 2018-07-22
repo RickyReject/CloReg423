@@ -3363,7 +3363,7 @@ Partial Class Form1
         '
         Me.NoteringComboBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Notering", True))
         Me.NoteringComboBox.FormattingEnabled = True
-        Me.NoteringComboBox.Items.AddRange(New Object() {"", "Svart", "Grå", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
+        Me.NoteringComboBox.Items.AddRange(New Object() {"", "Svart", "Grå", "Beige", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
         Me.NoteringComboBox.Location = New System.Drawing.Point(525, 101)
         Me.NoteringComboBox.Name = "NoteringComboBox"
         Me.NoteringComboBox.Size = New System.Drawing.Size(100, 28)
@@ -3937,7 +3937,7 @@ Partial Class Form1
         '
         Me.NoteringComboBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Notering", True))
         Me.NoteringComboBox1.FormattingEnabled = True
-        Me.NoteringComboBox1.Items.AddRange(New Object() {"", "Svart", "Grå", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
+        Me.NoteringComboBox1.Items.AddRange(New Object() {"", "Svart", "Grå", "Beige", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
         Me.NoteringComboBox1.Location = New System.Drawing.Point(523, 72)
         Me.NoteringComboBox1.Name = "NoteringComboBox1"
         Me.NoteringComboBox1.Size = New System.Drawing.Size(100, 28)
@@ -4572,7 +4572,7 @@ Partial Class Form1
         '
         Me.NoteringComboBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Notering", True))
         Me.NoteringComboBox2.FormattingEnabled = True
-        Me.NoteringComboBox2.Items.AddRange(New Object() {"", "Svart", "Grå", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
+        Me.NoteringComboBox2.Items.AddRange(New Object() {"", "Svart", "Grå", "Beige", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
         Me.NoteringComboBox2.Location = New System.Drawing.Point(520, 135)
         Me.NoteringComboBox2.Name = "NoteringComboBox2"
         Me.NoteringComboBox2.Size = New System.Drawing.Size(100, 28)
@@ -5182,7 +5182,7 @@ Partial Class Form1
         '
         Me.NoteringComboBox3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "Notering", True))
         Me.NoteringComboBox3.FormattingEnabled = True
-        Me.NoteringComboBox3.Items.AddRange(New Object() {"", "Svart", "Grå", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
+        Me.NoteringComboBox3.Items.AddRange(New Object() {"", "Svart", "Grå", "Beige", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
         Me.NoteringComboBox3.Location = New System.Drawing.Point(542, 168)
         Me.NoteringComboBox3.Name = "NoteringComboBox3"
         Me.NoteringComboBox3.Size = New System.Drawing.Size(102, 28)
@@ -5839,7 +5839,7 @@ Partial Class Form1
         '
         Me.NoteringComboBox4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KlänningBindingSource, "Notering", True))
         Me.NoteringComboBox4.FormattingEnabled = True
-        Me.NoteringComboBox4.Items.AddRange(New Object() {"", "Svart", "Grå", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
+        Me.NoteringComboBox4.Items.AddRange(New Object() {"", "Svart", "Grå", "Beige", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
         Me.NoteringComboBox4.Location = New System.Drawing.Point(520, 194)
         Me.NoteringComboBox4.Name = "NoteringComboBox4"
         Me.NoteringComboBox4.Size = New System.Drawing.Size(100, 28)
@@ -6553,7 +6553,7 @@ Partial Class Form1
         '
         Me.NoteringComboBox5.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ToppBindingSource, "Notering", True))
         Me.NoteringComboBox5.FormattingEnabled = True
-        Me.NoteringComboBox5.Items.AddRange(New Object() {"", "Svart", "Grå", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
+        Me.NoteringComboBox5.Items.AddRange(New Object() {"", "Svart", "Grå", "Beige", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
         Me.NoteringComboBox5.Location = New System.Drawing.Point(577, 163)
         Me.NoteringComboBox5.Name = "NoteringComboBox5"
         Me.NoteringComboBox5.Size = New System.Drawing.Size(100, 28)
@@ -7270,7 +7270,7 @@ Partial Class Form1
         '
         Me.NoteringComboBox6.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JumpsuitBindingSource, "Notering", True))
         Me.NoteringComboBox6.FormattingEnabled = True
-        Me.NoteringComboBox6.Items.AddRange(New Object() {"", "Svart", "Grå", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
+        Me.NoteringComboBox6.Items.AddRange(New Object() {"", "Svart", "Grå", "Beige", "Blå", "Röd", "Grön", "Multifärgad", "Brun", "Rosa", "Vit", "Lila", "Gul", "Orange"})
         Me.NoteringComboBox6.Location = New System.Drawing.Point(535, 165)
         Me.NoteringComboBox6.Name = "NoteringComboBox6"
         Me.NoteringComboBox6.Size = New System.Drawing.Size(100, 28)
