@@ -3347,6 +3347,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             Button35.PerformClick()
+                            Me.Validate()
+                            Me.AccessoarerBindingSource.EndEdit()
+                            Me.AccessoarerTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         Else
@@ -3375,6 +3378,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             Button35.PerformClick()
+                            Me.Validate()
+                            Me.AccessoarerBindingSource.EndEdit()
+                            Me.AccessoarerTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         End If
@@ -3446,6 +3452,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             Button53.PerformClick()
+                            Me.Validate()
+                            Me.Dam_ByxorBindingSource.EndEdit()
+                            Me.Dam_ByxorTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         Else
@@ -3474,6 +3483,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             Button53.PerformClick()
+                            Me.Validate()
+                            Me.Dam_ByxorBindingSource.EndEdit()
+                            Me.Dam_ByxorTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         End If
@@ -3545,6 +3557,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             Button45.PerformClick()
+                            Me.Validate()
+                            Me.Dam_JackaBindingSource.EndEdit()
+                            Me.Dam_JackaTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         Else
@@ -3573,6 +3588,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             Button45.PerformClick()
+                            Me.Validate()
+                            Me.Dam_JackaBindingSource.EndEdit()
+                            Me.Dam_JackaTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         End If
@@ -3644,6 +3662,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             WriteImagesKjolBtn.PerformClick()
+                            Me.Validate()
+                            Me.Dam_KjolBindingSource.EndEdit()
+                            Me.Dam_KjolTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         Else
@@ -3672,6 +3693,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             WriteImagesKjolBtn.PerformClick()
+                            Me.Validate()
+                            Me.Dam_KjolBindingSource.EndEdit()
+                            Me.Dam_KjolTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         End If
@@ -3743,6 +3767,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             Button27.PerformClick()
+                            Me.Validate()
+                            Me.Dam_KlänningBindingSource.EndEdit()
+                            Me.Dam_KlänningTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         Else
@@ -3771,6 +3798,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             Button27.PerformClick()
+                            Me.Validate()
+                            Me.Dam_KlänningBindingSource.EndEdit()
+                            Me.Dam_KlänningTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         End If
@@ -3842,6 +3872,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             WriteImagesTopparBtn.PerformClick()
+                            Me.Validate()
+                            Me.Dam_ToppBindingSource.EndEdit()
+                            Me.Dam_ToppTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         Else
@@ -3870,6 +3903,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             WriteImagesTopparBtn.PerformClick()
+                            Me.Validate()
+                            Me.Dam_ToppBindingSource.EndEdit()
+                            Me.Dam_ToppTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         End If
@@ -3941,6 +3977,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             Button61.PerformClick()
+                            Me.Validate()
+                            Me.Dam_JumpsuitBindingSource.EndEdit()
+                            Me.Dam_JumpsuitTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         Else
@@ -3969,6 +4008,9 @@ Public Class Form1
                             Threading.Thread.Sleep(1000)
 
                             Button61.PerformClick()
+                            Me.Validate()
+                            Me.Dam_JumpsuitBindingSource.EndEdit()
+                            Me.Dam_JumpsuitTableAdapter.Update(Me.CLOREGDBDataSet)
                             Cursor.Current = Cursors.Default
 
                         End If

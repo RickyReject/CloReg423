@@ -1231,7 +1231,7 @@ Partial Class Form1
         'BilderLabel
         '
         BilderLabel.AutoSize = True
-        BilderLabel.Location = New System.Drawing.Point(958, 204)
+        BilderLabel.Location = New System.Drawing.Point(958, 73)
         BilderLabel.Name = "BilderLabel"
         BilderLabel.Size = New System.Drawing.Size(53, 20)
         BilderLabel.TabIndex = 55
@@ -1240,7 +1240,7 @@ Partial Class Form1
         'TaggarLabel
         '
         TaggarLabel.AutoSize = True
-        TaggarLabel.Location = New System.Drawing.Point(958, 235)
+        TaggarLabel.Location = New System.Drawing.Point(958, 104)
         TaggarLabel.Name = "TaggarLabel"
         TaggarLabel.Size = New System.Drawing.Size(63, 20)
         TaggarLabel.TabIndex = 57
@@ -1492,7 +1492,7 @@ Partial Class Form1
         'BilderLabel1
         '
         BilderLabel1.AutoSize = True
-        BilderLabel1.Location = New System.Drawing.Point(931, 191)
+        BilderLabel1.Location = New System.Drawing.Point(931, 72)
         BilderLabel1.Name = "BilderLabel1"
         BilderLabel1.Size = New System.Drawing.Size(53, 20)
         BilderLabel1.TabIndex = 112
@@ -1501,7 +1501,7 @@ Partial Class Form1
         'TaggarLabel1
         '
         TaggarLabel1.AutoSize = True
-        TaggarLabel1.Location = New System.Drawing.Point(931, 220)
+        TaggarLabel1.Location = New System.Drawing.Point(931, 101)
         TaggarLabel1.Name = "TaggarLabel1"
         TaggarLabel1.Size = New System.Drawing.Size(63, 20)
         TaggarLabel1.TabIndex = 113
@@ -1762,7 +1762,7 @@ Partial Class Form1
         'BilderLabel2
         '
         BilderLabel2.AutoSize = True
-        BilderLabel2.Location = New System.Drawing.Point(878, 191)
+        BilderLabel2.Location = New System.Drawing.Point(903, 71)
         BilderLabel2.Name = "BilderLabel2"
         BilderLabel2.Size = New System.Drawing.Size(53, 20)
         BilderLabel2.TabIndex = 116
@@ -1771,7 +1771,7 @@ Partial Class Form1
         'TaggarLabel2
         '
         TaggarLabel2.AutoSize = True
-        TaggarLabel2.Location = New System.Drawing.Point(878, 229)
+        TaggarLabel2.Location = New System.Drawing.Point(903, 104)
         TaggarLabel2.Name = "TaggarLabel2"
         TaggarLabel2.Size = New System.Drawing.Size(63, 20)
         TaggarLabel2.TabIndex = 117
@@ -2014,7 +2014,7 @@ Partial Class Form1
         'BilderLabel3
         '
         BilderLabel3.AutoSize = True
-        BilderLabel3.Location = New System.Drawing.Point(900, 194)
+        BilderLabel3.Location = New System.Drawing.Point(900, 72)
         BilderLabel3.Name = "BilderLabel3"
         BilderLabel3.Size = New System.Drawing.Size(53, 20)
         BilderLabel3.TabIndex = 117
@@ -2023,7 +2023,7 @@ Partial Class Form1
         'TaggarLabel3
         '
         TaggarLabel3.AutoSize = True
-        TaggarLabel3.Location = New System.Drawing.Point(901, 227)
+        TaggarLabel3.Location = New System.Drawing.Point(901, 105)
         TaggarLabel3.Name = "TaggarLabel3"
         TaggarLabel3.Size = New System.Drawing.Size(63, 20)
         TaggarLabel3.TabIndex = 118
@@ -2257,7 +2257,7 @@ Partial Class Form1
         'BilderLabel4
         '
         BilderLabel4.AutoSize = True
-        BilderLabel4.Location = New System.Drawing.Point(903, 160)
+        BilderLabel4.Location = New System.Drawing.Point(903, 72)
         BilderLabel4.Name = "BilderLabel4"
         BilderLabel4.Size = New System.Drawing.Size(53, 20)
         BilderLabel4.TabIndex = 120
@@ -2266,7 +2266,7 @@ Partial Class Form1
         'TaggarLabel4
         '
         TaggarLabel4.AutoSize = True
-        TaggarLabel4.Location = New System.Drawing.Point(903, 189)
+        TaggarLabel4.Location = New System.Drawing.Point(903, 101)
         TaggarLabel4.Name = "TaggarLabel4"
         TaggarLabel4.Size = New System.Drawing.Size(63, 20)
         TaggarLabel4.TabIndex = 121
@@ -2482,7 +2482,7 @@ Partial Class Form1
         'BilderLabel5
         '
         BilderLabel5.AutoSize = True
-        BilderLabel5.Location = New System.Drawing.Point(909, 162)
+        BilderLabel5.Location = New System.Drawing.Point(909, 72)
         BilderLabel5.Name = "BilderLabel5"
         BilderLabel5.Size = New System.Drawing.Size(53, 20)
         BilderLabel5.TabIndex = 115
@@ -2491,7 +2491,7 @@ Partial Class Form1
         'TaggarLabel5
         '
         TaggarLabel5.AutoSize = True
-        TaggarLabel5.Location = New System.Drawing.Point(909, 194)
+        TaggarLabel5.Location = New System.Drawing.Point(909, 104)
         TaggarLabel5.Name = "TaggarLabel5"
         TaggarLabel5.Size = New System.Drawing.Size(63, 20)
         TaggarLabel5.TabIndex = 116
@@ -3544,7 +3544,7 @@ Partial Class Form1
         '
         'Button35
         '
-        Me.Button35.Location = New System.Drawing.Point(805, 159)
+        Me.Button35.Location = New System.Drawing.Point(805, 229)
         Me.Button35.Name = "Button35"
         Me.Button35.Size = New System.Drawing.Size(89, 23)
         Me.Button35.TabIndex = 122
@@ -3564,7 +3564,7 @@ Partial Class Form1
         '
         Me.ListBoxAccessoarer.FormattingEnabled = True
         Me.ListBoxAccessoarer.ItemHeight = 20
-        Me.ListBoxAccessoarer.Location = New System.Drawing.Point(805, 69)
+        Me.ListBoxAccessoarer.Location = New System.Drawing.Point(805, 139)
         Me.ListBoxAccessoarer.Name = "ListBoxAccessoarer"
         Me.ListBoxAccessoarer.Size = New System.Drawing.Size(89, 84)
         Me.ListBoxAccessoarer.TabIndex = 120
@@ -3572,7 +3572,7 @@ Partial Class Form1
         'TaggarTextBoxAcc
         '
         Me.TaggarTextBoxAcc.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Taggar", True))
-        Me.TaggarTextBoxAcc.Location = New System.Drawing.Point(805, 224)
+        Me.TaggarTextBoxAcc.Location = New System.Drawing.Point(805, 102)
         Me.TaggarTextBoxAcc.Name = "TaggarTextBoxAcc"
         Me.TaggarTextBoxAcc.Size = New System.Drawing.Size(89, 26)
         Me.TaggarTextBoxAcc.TabIndex = 119
@@ -3580,7 +3580,7 @@ Partial Class Form1
         'BilderTextBoxAcc
         '
         Me.BilderTextBoxAcc.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Bilder", True))
-        Me.BilderTextBoxAcc.Location = New System.Drawing.Point(805, 191)
+        Me.BilderTextBoxAcc.Location = New System.Drawing.Point(805, 69)
         Me.BilderTextBoxAcc.Name = "BilderTextBoxAcc"
         Me.BilderTextBoxAcc.Size = New System.Drawing.Size(89, 26)
         Me.BilderTextBoxAcc.TabIndex = 118
@@ -4246,7 +4246,7 @@ Partial Class Form1
         'TaggarTextBoxByxor
         '
         Me.TaggarTextBoxByxor.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Taggar", True))
-        Me.TaggarTextBoxByxor.Location = New System.Drawing.Point(803, 191)
+        Me.TaggarTextBoxByxor.Location = New System.Drawing.Point(803, 101)
         Me.TaggarTextBoxByxor.Name = "TaggarTextBoxByxor"
         Me.TaggarTextBoxByxor.Size = New System.Drawing.Size(100, 26)
         Me.TaggarTextBoxByxor.TabIndex = 117
@@ -4254,7 +4254,7 @@ Partial Class Form1
         'BilderTextBoxByxor
         '
         Me.BilderTextBoxByxor.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Bilder", True))
-        Me.BilderTextBoxByxor.Location = New System.Drawing.Point(803, 159)
+        Me.BilderTextBoxByxor.Location = New System.Drawing.Point(803, 69)
         Me.BilderTextBoxByxor.Name = "BilderTextBoxByxor"
         Me.BilderTextBoxByxor.Size = New System.Drawing.Size(100, 26)
         Me.BilderTextBoxByxor.TabIndex = 116
@@ -4263,7 +4263,7 @@ Partial Class Form1
         '
         Me.BilderListboxByxor.FormattingEnabled = True
         Me.BilderListboxByxor.ItemHeight = 20
-        Me.BilderListboxByxor.Location = New System.Drawing.Point(803, 69)
+        Me.BilderListboxByxor.Location = New System.Drawing.Point(803, 133)
         Me.BilderListboxByxor.Name = "BilderListboxByxor"
         Me.BilderListboxByxor.Size = New System.Drawing.Size(100, 84)
         Me.BilderListboxByxor.TabIndex = 115
@@ -4833,7 +4833,7 @@ Partial Class Form1
         '
         Me.BilderListBoxJacka.FormattingEnabled = True
         Me.BilderListBoxJacka.ItemHeight = 20
-        Me.BilderListBoxJacka.Location = New System.Drawing.Point(797, 67)
+        Me.BilderListBoxJacka.Location = New System.Drawing.Point(797, 131)
         Me.BilderListBoxJacka.Name = "BilderListBoxJacka"
         Me.BilderListBoxJacka.Size = New System.Drawing.Size(100, 84)
         Me.BilderListBoxJacka.TabIndex = 123
@@ -4841,7 +4841,7 @@ Partial Class Form1
         'TaggarTextBox2
         '
         Me.TaggarTextBox2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Taggar", True))
-        Me.TaggarTextBox2.Location = New System.Drawing.Point(797, 189)
+        Me.TaggarTextBox2.Location = New System.Drawing.Point(797, 101)
         Me.TaggarTextBox2.Name = "TaggarTextBox2"
         Me.TaggarTextBox2.Size = New System.Drawing.Size(100, 26)
         Me.TaggarTextBox2.TabIndex = 122
@@ -4849,7 +4849,7 @@ Partial Class Form1
         'BilderTextBoxJacka
         '
         Me.BilderTextBoxJacka.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Bilder", True))
-        Me.BilderTextBoxJacka.Location = New System.Drawing.Point(797, 157)
+        Me.BilderTextBoxJacka.Location = New System.Drawing.Point(797, 69)
         Me.BilderTextBoxJacka.Name = "BilderTextBoxJacka"
         Me.BilderTextBoxJacka.Size = New System.Drawing.Size(100, 26)
         Me.BilderTextBoxJacka.TabIndex = 121
@@ -5510,7 +5510,7 @@ Partial Class Form1
         'TaggarTextBox
         '
         Me.TaggarTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "Taggar", True))
-        Me.TaggarTextBox.Location = New System.Drawing.Point(825, 220)
+        Me.TaggarTextBox.Location = New System.Drawing.Point(825, 101)
         Me.TaggarTextBox.Name = "TaggarTextBox"
         Me.TaggarTextBox.Size = New System.Drawing.Size(100, 26)
         Me.TaggarTextBox.TabIndex = 114
@@ -5518,7 +5518,7 @@ Partial Class Form1
         'BilderTextBoxKjol
         '
         Me.BilderTextBoxKjol.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "Bilder", True))
-        Me.BilderTextBoxKjol.Location = New System.Drawing.Point(825, 188)
+        Me.BilderTextBoxKjol.Location = New System.Drawing.Point(825, 69)
         Me.BilderTextBoxKjol.Name = "BilderTextBoxKjol"
         Me.BilderTextBoxKjol.Size = New System.Drawing.Size(100, 26)
         Me.BilderTextBoxKjol.TabIndex = 113
@@ -5527,14 +5527,14 @@ Partial Class Form1
         '
         Me.BilderListBoxKjol.FormattingEnabled = True
         Me.BilderListBoxKjol.ItemHeight = 20
-        Me.BilderListBoxKjol.Location = New System.Drawing.Point(825, 69)
+        Me.BilderListBoxKjol.Location = New System.Drawing.Point(825, 133)
         Me.BilderListBoxKjol.Name = "BilderListBoxKjol"
         Me.BilderListBoxKjol.Size = New System.Drawing.Size(100, 84)
         Me.BilderListBoxKjol.TabIndex = 112
         '
         'WriteImagesKjolBtn
         '
-        Me.WriteImagesKjolBtn.Location = New System.Drawing.Point(825, 159)
+        Me.WriteImagesKjolBtn.Location = New System.Drawing.Point(825, 223)
         Me.WriteImagesKjolBtn.Name = "WriteImagesKjolBtn"
         Me.WriteImagesKjolBtn.Size = New System.Drawing.Size(100, 23)
         Me.WriteImagesKjolBtn.TabIndex = 111
@@ -6219,33 +6219,33 @@ Partial Class Form1
         'TaggarTextBox1
         '
         Me.TaggarTextBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KlänningBindingSource, "Taggar", True))
-        Me.TaggarTextBox1.Location = New System.Drawing.Point(799, 225)
+        Me.TaggarTextBox1.Location = New System.Drawing.Point(799, 101)
         Me.TaggarTextBox1.Name = "TaggarTextBox1"
-        Me.TaggarTextBox1.Size = New System.Drawing.Size(77, 26)
+        Me.TaggarTextBox1.Size = New System.Drawing.Size(98, 26)
         Me.TaggarTextBox1.TabIndex = 118
         '
         'BilderTextBoxKlanning
         '
         Me.BilderTextBoxKlanning.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KlänningBindingSource, "Bilder", True))
-        Me.BilderTextBoxKlanning.Location = New System.Drawing.Point(799, 188)
+        Me.BilderTextBoxKlanning.Location = New System.Drawing.Point(799, 69)
         Me.BilderTextBoxKlanning.Name = "BilderTextBoxKlanning"
-        Me.BilderTextBoxKlanning.Size = New System.Drawing.Size(77, 26)
+        Me.BilderTextBoxKlanning.Size = New System.Drawing.Size(98, 26)
         Me.BilderTextBoxKlanning.TabIndex = 117
         '
         'BilderListBoxKlanning
         '
         Me.BilderListBoxKlanning.FormattingEnabled = True
         Me.BilderListBoxKlanning.ItemHeight = 20
-        Me.BilderListBoxKlanning.Location = New System.Drawing.Point(799, 69)
+        Me.BilderListBoxKlanning.Location = New System.Drawing.Point(798, 141)
         Me.BilderListBoxKlanning.Name = "BilderListBoxKlanning"
         Me.BilderListBoxKlanning.Size = New System.Drawing.Size(99, 84)
         Me.BilderListBoxKlanning.TabIndex = 116
         '
         'Button27
         '
-        Me.Button27.Location = New System.Drawing.Point(799, 159)
+        Me.Button27.Location = New System.Drawing.Point(798, 231)
         Me.Button27.Name = "Button27"
-        Me.Button27.Size = New System.Drawing.Size(75, 23)
+        Me.Button27.Size = New System.Drawing.Size(99, 23)
         Me.Button27.TabIndex = 115
         Me.Button27.Text = "Button27"
         Me.Button27.UseVisualStyleBackColor = True
@@ -6314,7 +6314,7 @@ Partial Class Form1
         Me.Button24.Name = "Button24"
         Me.Button24.Size = New System.Drawing.Size(151, 32)
         Me.Button24.TabIndex = 83
-        Me.Button24.Text = "Spara ändringar"
+        Me.Button24.Text = "Spara"
         Me.Button24.UseVisualStyleBackColor = False
         '
         'Button25
@@ -6945,9 +6945,9 @@ Partial Class Form1
         '
         'WriteImagesTopparBtn
         '
-        Me.WriteImagesTopparBtn.Location = New System.Drawing.Point(851, 165)
+        Me.WriteImagesTopparBtn.Location = New System.Drawing.Point(850, 231)
         Me.WriteImagesTopparBtn.Name = "WriteImagesTopparBtn"
-        Me.WriteImagesTopparBtn.Size = New System.Drawing.Size(120, 29)
+        Me.WriteImagesTopparBtn.Size = New System.Drawing.Size(101, 29)
         Me.WriteImagesTopparBtn.TabIndex = 75
         Me.WriteImagesTopparBtn.Text = "Button4"
         Me.WriteImagesTopparBtn.UseVisualStyleBackColor = True
@@ -6956,9 +6956,9 @@ Partial Class Form1
         '
         Me.BilderListBoxToppar.FormattingEnabled = True
         Me.BilderListBoxToppar.ItemHeight = 20
-        Me.BilderListBoxToppar.Location = New System.Drawing.Point(851, 75)
+        Me.BilderListBoxToppar.Location = New System.Drawing.Point(850, 141)
         Me.BilderListBoxToppar.Name = "BilderListBoxToppar"
-        Me.BilderListBoxToppar.Size = New System.Drawing.Size(120, 84)
+        Me.BilderListBoxToppar.Size = New System.Drawing.Size(101, 84)
         Me.BilderListBoxToppar.TabIndex = 73
         '
         'ActiveradTextBoxToppar
@@ -7004,7 +7004,7 @@ Partial Class Form1
         'TaggarTextBoxToppar
         '
         Me.TaggarTextBoxToppar.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ToppBindingSource, "Taggar", True))
-        Me.TaggarTextBoxToppar.Location = New System.Drawing.Point(852, 232)
+        Me.TaggarTextBoxToppar.Location = New System.Drawing.Point(852, 101)
         Me.TaggarTextBoxToppar.Name = "TaggarTextBoxToppar"
         Me.TaggarTextBoxToppar.Size = New System.Drawing.Size(100, 26)
         Me.TaggarTextBoxToppar.TabIndex = 58
@@ -7012,7 +7012,7 @@ Partial Class Form1
         'BilderTextBoxToppar
         '
         Me.BilderTextBoxToppar.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ToppBindingSource, "Bilder", True))
-        Me.BilderTextBoxToppar.Location = New System.Drawing.Point(852, 200)
+        Me.BilderTextBoxToppar.Location = New System.Drawing.Point(852, 69)
         Me.BilderTextBoxToppar.Name = "BilderTextBoxToppar"
         Me.BilderTextBoxToppar.Size = New System.Drawing.Size(100, 26)
         Me.BilderTextBoxToppar.TabIndex = 56
