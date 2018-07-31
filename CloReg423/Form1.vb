@@ -2350,6 +2350,8 @@ Public Class Form1
         Button102.Enabled = True
         AvbrytAccButton.Enabled = False
 
+        Button28.PerformClick()
+
     End Sub
 
     Private Sub Button62_Click(sender As Object, e As EventArgs) Handles Button62.Click
@@ -4273,6 +4275,8 @@ Public Class Form1
         Button51.Enabled = False
         Button52.Enabled = True
 
+        Button46.PerformClick()
+
     End Sub
 
     Private Sub Button97_Click(sender As Object, e As EventArgs) Handles Button97.Click
@@ -4287,6 +4291,8 @@ Public Class Form1
         Button103.Enabled = True
         Button104.Enabled = True
 
+        Button37.PerformClick()
+
     End Sub
 
     Private Sub Button98_Click(sender As Object, e As EventArgs) Handles Button98.Click
@@ -4299,6 +4305,8 @@ Public Class Form1
         Button98.Enabled = False
         Button97.Enabled = True
         Button105.Enabled = True
+
+        Button11.PerformClick()
 
     End Sub
 
@@ -4313,6 +4321,8 @@ Public Class Form1
         Button99.Enabled = False
         Button106.Enabled = True
 
+        Button19.PerformClick()
+
     End Sub
 
     Private Sub Button100_Click(sender As Object, e As EventArgs) Handles Button100.Click
@@ -4326,6 +4336,8 @@ Public Class Form1
         Button1.Enabled = True
         Button107.Enabled = True
 
+        Button8.PerformClick()
+
     End Sub
 
     Private Sub Button101_Click(sender As Object, e As EventArgs) Handles Button101.Click
@@ -4338,6 +4350,8 @@ Public Class Form1
         Button101.Enabled = False
         Button62.Enabled = True
         Button108.Enabled = True
+
+        Button56.PerformClick()
 
     End Sub
 

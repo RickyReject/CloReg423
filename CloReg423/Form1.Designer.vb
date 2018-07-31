@@ -3988,6 +3988,7 @@ Partial Class Form1
         '
         'MidjemåttTextBoxByxor
         '
+        Me.MidjemåttTextBoxByxor.CausesValidation = False
         Me.MidjemåttTextBoxByxor.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Midjemått", True))
         Me.MidjemåttTextBoxByxor.Location = New System.Drawing.Point(329, 6)
         Me.MidjemåttTextBoxByxor.Name = "MidjemåttTextBoxByxor"
@@ -3996,6 +3997,7 @@ Partial Class Form1
         '
         'MidjausTextboxByxor
         '
+        Me.MidjausTextboxByxor.CausesValidation = False
         Me.MidjausTextboxByxor.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Midjemått u Stretch", True))
         Me.MidjausTextboxByxor.Location = New System.Drawing.Point(329, 38)
         Me.MidjausTextboxByxor.Name = "MidjausTextboxByxor"
@@ -4004,6 +4006,7 @@ Partial Class Form1
         '
         'MidjamsTextboxByxor
         '
+        Me.MidjamsTextboxByxor.CausesValidation = False
         Me.MidjamsTextboxByxor.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Midjemått m Stretch", True))
         Me.MidjamsTextboxByxor.Location = New System.Drawing.Point(329, 70)
         Me.MidjamsTextboxByxor.Name = "MidjamsTextboxByxor"
@@ -6764,6 +6767,7 @@ Partial Class Form1
         '
         'Pris_mmTextBoxToppar
         '
+        Me.Pris_mmTextBoxToppar.CausesValidation = False
         Me.Pris_mmTextBoxToppar.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ToppBindingSource, "Pris mm", True))
         Me.Pris_mmTextBoxToppar.Location = New System.Drawing.Point(577, 195)
         Me.Pris_mmTextBoxToppar.Name = "Pris_mmTextBoxToppar"
@@ -6772,10 +6776,10 @@ Partial Class Form1
         '
         'Pris_umTextBoxToppar
         '
+        Me.Pris_umTextBoxToppar.CausesValidation = False
         Me.Pris_umTextBoxToppar.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ToppBindingSource, "Pris um", True))
         Me.Pris_umTextBoxToppar.Location = New System.Drawing.Point(577, 227)
         Me.Pris_umTextBoxToppar.Name = "Pris_umTextBoxToppar"
-        Me.Pris_umTextBoxToppar.ReadOnly = True
         Me.Pris_umTextBoxToppar.Size = New System.Drawing.Size(100, 26)
         Me.Pris_umTextBoxToppar.TabIndex = 46
         '
