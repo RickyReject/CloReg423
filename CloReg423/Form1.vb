@@ -45,13 +45,13 @@ Public Class Form1
         Button100.Enabled = True
         Button1.Enabled = False
 
-        PlaggTextBoxToppar.Text = ComboBox1.Text
-
         Dim newitem As Int16
         Dam_ToppBindingSource.MoveLast()
         newitem = ArtikelnrTextBoxToppar.Text.Remove(0, 3) + 1
 
         Me.Dam_ToppBindingSource.AddNew()
+
+        PlaggTextBoxToppar.Text = ComboBox1.Text
 
         If ForvaldhyllaTextBoxTopp.Text IsNot Nothing Then
             HyllaTextBoxToppar.Text = ForvaldhyllaTextBoxTopp.Text

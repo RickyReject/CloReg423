@@ -26,6 +26,9 @@ Partial Class Form2
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.LabelP = New System.Windows.Forms.Label()
+        Me.TextBoxP = New System.Windows.Forms.TextBox()
+        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
         Me.CheckBox16 = New System.Windows.Forms.CheckBox()
         Me.CheckBox15 = New System.Windows.Forms.CheckBox()
         Me.CheckBox14 = New System.Windows.Forms.CheckBox()
@@ -76,9 +79,6 @@ Partial Class Form2
         Me.LabelB = New System.Windows.Forms.Label()
         Me.LabelA = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
-        Me.TextBoxP = New System.Windows.Forms.TextBox()
-        Me.LabelP = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -170,6 +170,33 @@ Partial Class Form2
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(423, 370)
         Me.Panel1.TabIndex = 14
+        '
+        'LabelP
+        '
+        Me.LabelP.AutoSize = True
+        Me.LabelP.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.LabelP.Location = New System.Drawing.Point(360, 177)
+        Me.LabelP.Name = "LabelP"
+        Me.LabelP.Size = New System.Drawing.Size(42, 20)
+        Me.LabelP.TabIndex = 57
+        Me.LabelP.Text = "linne"
+        '
+        'TextBoxP
+        '
+        Me.TextBoxP.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.TextBoxP.Location = New System.Drawing.Point(255, 174)
+        Me.TextBoxP.Name = "TextBoxP"
+        Me.TextBoxP.Size = New System.Drawing.Size(100, 26)
+        Me.TextBoxP.TabIndex = 56
+        '
+        'CheckBox17
+        '
+        Me.CheckBox17.AutoSize = True
+        Me.CheckBox17.Location = New System.Drawing.Point(234, 214)
+        Me.CheckBox17.Name = "CheckBox17"
+        Me.CheckBox17.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox17.TabIndex = 55
+        Me.CheckBox17.UseVisualStyleBackColor = True
         '
         'CheckBox16
         '
@@ -619,33 +646,6 @@ Partial Class Form2
         Me.Button1.TabIndex = 12
         Me.Button1.Text = "ok"
         Me.Button1.UseVisualStyleBackColor = True
-        '
-        'CheckBox17
-        '
-        Me.CheckBox17.AutoSize = True
-        Me.CheckBox17.Location = New System.Drawing.Point(234, 214)
-        Me.CheckBox17.Name = "CheckBox17"
-        Me.CheckBox17.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox17.TabIndex = 55
-        Me.CheckBox17.UseVisualStyleBackColor = True
-        '
-        'TextBoxP
-        '
-        Me.TextBoxP.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.TextBoxP.Location = New System.Drawing.Point(255, 174)
-        Me.TextBoxP.Name = "TextBoxP"
-        Me.TextBoxP.Size = New System.Drawing.Size(100, 26)
-        Me.TextBoxP.TabIndex = 56
-        '
-        'LabelP
-        '
-        Me.LabelP.AutoSize = True
-        Me.LabelP.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.LabelP.Location = New System.Drawing.Point(360, 177)
-        Me.LabelP.Name = "LabelP"
-        Me.LabelP.Size = New System.Drawing.Size(48, 20)
-        Me.LabelP.TabIndex = 57
-        Me.LabelP.Text = "Linne"
         '
         'Form2
         '
