@@ -1137,11 +1137,11 @@ Public Class Form1
         Button24.Enabled = True
         Button29.Enabled = True
 
-        Me.Dam_KlänningBindingSource.AddNew()
-
         Dim newitem As Int16
         Dam_KlänningBindingSource.MoveLast()
         newitem = ArtikelnrTextBoxKlanning.Text.Remove(0, 3) + 1
+
+        Me.Dam_KlänningBindingSource.AddNew()
 
         If ForvaldhyllaTextBoxKlanning.Text IsNot Nothing Then
             HyllaTextBoxKlanning.Text = ForvaldhyllaTextBoxKlanning.Text
@@ -1936,11 +1936,11 @@ Public Class Form1
         Button16.Enabled = True
         Button98.Enabled = True
 
-        Me.Dam_KjolBindingSource.AddNew()
-
         Dim newitem As Int16
         Dam_KjolBindingSource.MoveLast()
         newitem = ArtikelnrTextBoxKjol.Text.Remove(0, 3) + 1
+
+        Me.Dam_KjolBindingSource.AddNew()
 
         If ForvaldhyllaTextBoxKjol.Text IsNot Nothing Then
             HyllaTextBoxKjol.Text = ForvaldhyllaTextBoxKjol.Text
@@ -1964,13 +1964,11 @@ Public Class Form1
         Button42.Enabled = True
         Button97.Enabled = True
 
-        Me.Dam_JackaBindingSource.AddNew()
-
         Dim newitem As Int16
         Dam_JackaBindingSource.MoveLast()
         newitem = ArtikelnrTextBoxJacka.Text.Remove(0, 3) + 1
 
-
+        Me.Dam_JackaBindingSource.AddNew()
 
 
         If ForvaldhyllaTextBoxJacka.Text IsNot Nothing Then
@@ -2362,11 +2360,11 @@ Public Class Form1
         Button101.Enabled = True
         Button62.Enabled = False
 
-        Me.Dam_JumpsuitBindingSource.AddNew()
-
         Dim newitem As Int16
         Dam_JumpsuitBindingSource.MoveLast()
         newitem = ArtikelnrTextBoxJumpsuit.Text.Remove(0, 3) + 1
+
+        Me.Dam_JumpsuitBindingSource.AddNew()
 
         If ForvaldhyllaTextBoxJumpsuit.Text IsNot Nothing Then
             HyllaTextBoxJumpsuit.Text = ForvaldhyllaTextBoxJumpsuit.Text
