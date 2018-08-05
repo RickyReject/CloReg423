@@ -1177,6 +1177,7 @@ Partial Class Form1
         'Pris_mmLabel
         '
         Pris_mmLabel.AutoSize = True
+        Pris_mmLabel.ForeColor = System.Drawing.Color.Red
         Pris_mmLabel.Location = New System.Drawing.Point(502, 198)
         Pris_mmLabel.Name = "Pris_mmLabel"
         Pris_mmLabel.Size = New System.Drawing.Size(69, 20)
@@ -1465,6 +1466,7 @@ Partial Class Form1
         'Pris_mmLabel1
         '
         Pris_mmLabel1.AutoSize = True
+        Pris_mmLabel1.ForeColor = System.Drawing.Color.Red
         Pris_mmLabel1.Location = New System.Drawing.Point(467, 205)
         Pris_mmLabel1.Name = "Pris_mmLabel1"
         Pris_mmLabel1.Size = New System.Drawing.Size(69, 20)
@@ -1744,6 +1746,7 @@ Partial Class Form1
         'Pris_mmLabel2
         '
         Pris_mmLabel2.AutoSize = True
+        Pris_mmLabel2.ForeColor = System.Drawing.Color.Red
         Pris_mmLabel2.Location = New System.Drawing.Point(446, 230)
         Pris_mmLabel2.Name = "Pris_mmLabel2"
         Pris_mmLabel2.Size = New System.Drawing.Size(69, 20)
@@ -1933,6 +1936,7 @@ Partial Class Form1
         'Pris_mmLabel3
         '
         Pris_mmLabel3.AutoSize = True
+        Pris_mmLabel3.ForeColor = System.Drawing.Color.Red
         Pris_mmLabel3.Location = New System.Drawing.Point(450, 6)
         Pris_mmLabel3.Name = "Pris_mmLabel3"
         Pris_mmLabel3.Size = New System.Drawing.Size(69, 20)
@@ -2194,6 +2198,7 @@ Partial Class Form1
         'Pris_mmLabel4
         '
         Pris_mmLabel4.AutoSize = True
+        Pris_mmLabel4.ForeColor = System.Drawing.Color.Red
         Pris_mmLabel4.Location = New System.Drawing.Point(445, 172)
         Pris_mmLabel4.Name = "Pris_mmLabel4"
         Pris_mmLabel4.Size = New System.Drawing.Size(69, 20)
@@ -2473,6 +2478,7 @@ Partial Class Form1
         'Pris_mmLabel5
         '
         Pris_mmLabel5.AutoSize = True
+        Pris_mmLabel5.ForeColor = System.Drawing.Color.Red
         Pris_mmLabel5.Location = New System.Drawing.Point(448, 109)
         Pris_mmLabel5.Name = "Pris_mmLabel5"
         Pris_mmLabel5.Size = New System.Drawing.Size(69, 20)
@@ -2734,6 +2740,7 @@ Partial Class Form1
         'Pris_mmLabel6
         '
         Pris_mmLabel6.AutoSize = True
+        Pris_mmLabel6.ForeColor = System.Drawing.Color.Red
         Pris_mmLabel6.Location = New System.Drawing.Point(460, 202)
         Pris_mmLabel6.Name = "Pris_mmLabel6"
         Pris_mmLabel6.Size = New System.Drawing.Size(69, 20)
@@ -3379,6 +3386,7 @@ Partial Class Form1
         '
         'Pris_mmTextBoxAcc
         '
+        Me.Pris_mmTextBoxAcc.CausesValidation = False
         Me.Pris_mmTextBoxAcc.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Pris mm", True))
         Me.Pris_mmTextBoxAcc.Location = New System.Drawing.Point(525, 3)
         Me.Pris_mmTextBoxAcc.Name = "Pris_mmTextBoxAcc"
@@ -3387,10 +3395,10 @@ Partial Class Form1
         '
         'Pris_umTextBoxAcc
         '
+        Me.Pris_umTextBoxAcc.CausesValidation = False
         Me.Pris_umTextBoxAcc.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AccessoarerBindingSource, "Pris um", True))
         Me.Pris_umTextBoxAcc.Location = New System.Drawing.Point(525, 35)
         Me.Pris_umTextBoxAcc.Name = "Pris_umTextBoxAcc"
-        Me.Pris_umTextBoxAcc.ReadOnly = True
         Me.Pris_umTextBoxAcc.Size = New System.Drawing.Size(100, 26)
         Me.Pris_umTextBoxAcc.TabIndex = 110
         '
@@ -4074,15 +4082,16 @@ Partial Class Form1
         '
         'Pris_umTextBoxByxor
         '
+        Me.Pris_umTextBoxByxor.CausesValidation = False
         Me.Pris_umTextBoxByxor.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Pris um", True))
         Me.Pris_umTextBoxByxor.Location = New System.Drawing.Point(523, 138)
         Me.Pris_umTextBoxByxor.Name = "Pris_umTextBoxByxor"
-        Me.Pris_umTextBoxByxor.ReadOnly = True
         Me.Pris_umTextBoxByxor.Size = New System.Drawing.Size(100, 26)
         Me.Pris_umTextBoxByxor.TabIndex = 113
         '
         'Pris_mmTextBoxByxor
         '
+        Me.Pris_mmTextBoxByxor.CausesValidation = False
         Me.Pris_mmTextBoxByxor.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_ByxorBindingSource, "Pris mm", True))
         Me.Pris_mmTextBoxByxor.Location = New System.Drawing.Point(523, 106)
         Me.Pris_mmTextBoxByxor.Name = "Pris_mmTextBoxByxor"
@@ -4719,6 +4728,7 @@ Partial Class Form1
         '
         'Pris_mmTextBoxJacka
         '
+        Me.Pris_mmTextBoxJacka.CausesValidation = False
         Me.Pris_mmTextBoxJacka.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Pris mm", True))
         Me.Pris_mmTextBoxJacka.Location = New System.Drawing.Point(520, 169)
         Me.Pris_mmTextBoxJacka.Name = "Pris_mmTextBoxJacka"
@@ -4727,10 +4737,10 @@ Partial Class Form1
         '
         'Pris_umTextBoxJacka
         '
+        Me.Pris_umTextBoxJacka.CausesValidation = False
         Me.Pris_umTextBoxJacka.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JackaBindingSource, "Pris um", True))
         Me.Pris_umTextBoxJacka.Location = New System.Drawing.Point(520, 201)
         Me.Pris_umTextBoxJacka.Name = "Pris_umTextBoxJacka"
-        Me.Pris_umTextBoxJacka.ReadOnly = True
         Me.Pris_umTextBoxJacka.Size = New System.Drawing.Size(100, 26)
         Me.Pris_umTextBoxJacka.TabIndex = 115
         '
@@ -5366,6 +5376,7 @@ Partial Class Form1
         '
         'Pris_mmTextBoxKjol
         '
+        Me.Pris_mmTextBoxKjol.CausesValidation = False
         Me.Pris_mmTextBoxKjol.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "Pris mm", True))
         Me.Pris_mmTextBoxKjol.Location = New System.Drawing.Point(542, 202)
         Me.Pris_mmTextBoxKjol.Name = "Pris_mmTextBoxKjol"
@@ -5374,10 +5385,10 @@ Partial Class Form1
         '
         'Pris_um1TextBoxKjol
         '
+        Me.Pris_um1TextBoxKjol.CausesValidation = False
         Me.Pris_um1TextBoxKjol.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KjolBindingSource, "Pris um1", True))
         Me.Pris_um1TextBoxKjol.Location = New System.Drawing.Point(542, 234)
         Me.Pris_um1TextBoxKjol.Name = "Pris_um1TextBoxKjol"
-        Me.Pris_um1TextBoxKjol.ReadOnly = True
         Me.Pris_um1TextBoxKjol.Size = New System.Drawing.Size(100, 26)
         Me.Pris_um1TextBoxKjol.TabIndex = 108
         '
@@ -6056,10 +6067,10 @@ Partial Class Form1
         '
         'Pris_umTextBoxKlanning
         '
+        Me.Pris_umTextBoxKlanning.CausesValidation = False
         Me.Pris_umTextBoxKlanning.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KlänningBindingSource, "Pris um", True))
         Me.Pris_umTextBoxKlanning.Location = New System.Drawing.Point(521, 259)
         Me.Pris_umTextBoxKlanning.Name = "Pris_umTextBoxKlanning"
-        Me.Pris_umTextBoxKlanning.ReadOnly = True
         Me.Pris_umTextBoxKlanning.Size = New System.Drawing.Size(100, 26)
         Me.Pris_umTextBoxKlanning.TabIndex = 112
         '
@@ -6075,6 +6086,7 @@ Partial Class Form1
         '
         'Pris_mmTextBoxKlanning
         '
+        Me.Pris_mmTextBoxKlanning.CausesValidation = False
         Me.Pris_mmTextBoxKlanning.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_KlänningBindingSource, "Pris mm", True))
         Me.Pris_mmTextBoxKlanning.Location = New System.Drawing.Point(521, 227)
         Me.Pris_mmTextBoxKlanning.Name = "Pris_mmTextBoxKlanning"
@@ -7436,10 +7448,10 @@ Partial Class Form1
         '
         'Pris_umTextBoxJumpsuit
         '
+        Me.Pris_umTextBoxJumpsuit.CausesValidation = False
         Me.Pris_umTextBoxJumpsuit.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JumpsuitBindingSource, "Pris um", True))
         Me.Pris_umTextBoxJumpsuit.Location = New System.Drawing.Point(535, 231)
         Me.Pris_umTextBoxJumpsuit.Name = "Pris_umTextBoxJumpsuit"
-        Me.Pris_umTextBoxJumpsuit.ReadOnly = True
         Me.Pris_umTextBoxJumpsuit.Size = New System.Drawing.Size(100, 26)
         Me.Pris_umTextBoxJumpsuit.TabIndex = 117
         '
@@ -7453,6 +7465,7 @@ Partial Class Form1
         '
         'Pris_mmTextBoxJumpsuit
         '
+        Me.Pris_mmTextBoxJumpsuit.CausesValidation = False
         Me.Pris_mmTextBoxJumpsuit.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Dam_JumpsuitBindingSource, "Pris mm", True))
         Me.Pris_mmTextBoxJumpsuit.Location = New System.Drawing.Point(535, 199)
         Me.Pris_mmTextBoxJumpsuit.Name = "Pris_mmTextBoxJumpsuit"

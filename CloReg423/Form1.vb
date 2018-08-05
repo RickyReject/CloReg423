@@ -1340,11 +1340,15 @@ Public Class Form1
         End If
 
 
-        Try
-            Pris_umTextBoxToppar.Text = Pris_mmTextBoxToppar.Text * 0.8
-        Catch ex As Exception
+        If Pris_umTextBoxToppar.Text = Nothing Then
             MsgBox("FYI: inget pris angivet")
-        End Try
+        End If
+
+        'Try
+        '    Pris_umTextBoxToppar.Text = Pris_mmTextBoxToppar.Text * 0.8
+        'Catch ex As Exception
+        '    MsgBox("FYI: inget pris angivet")
+        'End Try
 
         ActiveradTextBoxToppar.Text = "0"
         ConditionComboBoxToppar.Text = "used"
@@ -1386,12 +1390,15 @@ Public Class Form1
         End If
 
 
-
-        Try
-            Pris_umTextBoxKlanning.Text = Pris_mmTextBoxKlanning.Text * 0.8
-        Catch ex As Exception
+        If Pris_umTextBoxKlanning.Text = Nothing Then
             MsgBox("FYI: Inget pris angivet!")
-        End Try
+        End If
+
+        'Try
+        '    Pris_umTextBoxKlanning.Text = Pris_mmTextBoxKlanning.Text * 0.8
+        'Catch ex As Exception
+        '    MsgBox("FYI: Inget pris angivet!")
+        'End Try
 
         ActiveradTextBoxKlanning.Text = "0"
         ConditionComboBoxKlanning.Text = "used"
@@ -1403,11 +1410,15 @@ Public Class Form1
 
     Private Sub CalcPriceBtnAcc_Click(sender As Object, e As EventArgs) Handles CalcPriceBtnAcc.Click
 
-        Try
-            Pris_umTextBoxAcc.Text = Pris_mmTextBoxAcc.Text * 0.8
-        Catch ex As Exception
+        If Pris_umTextBoxAcc.Text = Nothing Then
             MsgBox("FYI: Inget pris angivet!")
-        End Try
+        End If
+
+        'Try
+        '    Pris_umTextBoxAcc.Text = Pris_mmTextBoxAcc.Text * 0.8
+        'Catch ex As Exception
+        '    MsgBox("FYI: Inget pris angivet!")
+        'End Try
 
         ActiveradTextBoxAcc.Text = "0"
         ConditionComboBoxAcc.Text = "used"
@@ -1639,11 +1650,15 @@ Public Class Form1
             storlekskat = "12|28|117||12|28||12"
         End If
 
-        Try
-            Pris_umTextBoxJacka.Text = Pris_mmTextBoxJacka.Text * 0.8
-        Catch ex As Exception
+        If Pris_umTextBoxJacka.Text = Nothing Then
             MsgBox("FYI: Inget pris angivet!")
-        End Try
+        End If
+
+        'Try
+        '    Pris_umTextBoxJacka.Text = Pris_mmTextBoxJacka.Text * 0.8
+        'Catch ex As Exception
+        '    MsgBox("FYI: Inget pris angivet!")
+        'End Try
 
         ActiveradTextBoxJacka.Text = "0"
         ConditionComboBoxJacka.Text = "used"
@@ -1682,11 +1697,17 @@ Public Class Form1
             storlekskat = "12|16|93||12|16||12"
         End If
 
-        Try
-            Pris_um1TextBoxKjol.Text = Pris_mmTextBoxKjol.Text * 0.8
-        Catch ex As Exception
+
+        If Pris_um1TextBoxKjol.Text = Nothing Then
             MsgBox("FYI: Inget pris angivet!")
-        End Try
+        End If
+
+
+        'Try
+        '    Pris_um1TextBoxKjol.Text = Pris_mmTextBoxKjol.Text * 0.8
+        'Catch ex As Exception
+        '    MsgBox("FYI: Inget pris angivet!")
+        'End Try
 
         ActiveradTextBoxKjol.Text = "0"
         ConditionComboBoxKjol.Text = "used"
@@ -2681,11 +2702,15 @@ Public Class Form1
         End If
 
 
-        Try
-            Pris_umTextBoxJumpsuit.Text = Pris_mmTextBoxJumpsuit.Text * 0.8
-        Catch ex As Exception
+        If Pris_umTextBoxJumpsuit.Text = Nothing Then
             MsgBox("FYI: Inget pris angivet!")
-        End Try
+        End If
+
+        'Try
+        '    Pris_umTextBoxJumpsuit.Text = Pris_mmTextBoxJumpsuit.Text * 0.8
+        'Catch ex As Exception
+        '    MsgBox("FYI: Inget pris angivet!")
+        'End Try
 
         ActiveradTextBoxJumpsuit.Text = "0"
         ConditionComboBoxJumpsuit.Text = "used"
@@ -3091,12 +3116,15 @@ Public Class Form1
         End If
 
 
-
-        Try
-            Pris_umTextBoxByxor.Text = Pris_mmTextBoxByxor.Text * 0.8
-        Catch ex As Exception
+        If Pris_umTextBoxByxor.Text = Nothing Then
             MsgBox("FYI: Inget pris angivet!")
-        End Try
+        End If
+
+        'Try
+        '    Pris_umTextBoxByxor.Text = Pris_mmTextBoxByxor.Text * 0.8
+        'Catch ex As Exception
+        '    MsgBox("FYI: Inget pris angivet!")
+        'End Try
 
         ActiveradTextBoxByxor.Text = "0"
         ConditionComboBoxByxor.Text = "used"
@@ -4427,6 +4455,160 @@ Public Class Form1
         Button101.Enabled = True
         Button63.Enabled = True
         Button108.Enabled = False
+
+    End Sub
+
+    Private Sub Pris_mmTextBoxAcc_TextChanged(sender As Object, e As EventArgs) Handles Pris_mmTextBoxAcc.TextChanged
+
+        If Pris_mmTextBoxAcc.Text = Nothing Then
+            Pris_umTextBoxAcc.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_umTextBoxAcc.Text = Pris_mmTextBoxAcc.Text * 0.8
+
+    End Sub
+
+    Private Sub Pris_umTextBoxAcc_TextChanged(sender As Object, e As EventArgs) Handles Pris_umTextBoxAcc.TextChanged
+
+        If Pris_umTextBoxAcc.Text = Nothing Then
+            Pris_mmTextBoxAcc.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_mmTextBoxAcc.Text = Pris_umTextBoxAcc.Text * 1.25
+
+    End Sub
+
+    Private Sub Pris_mmTextBoxByxor_TextChanged(sender As Object, e As EventArgs) Handles Pris_mmTextBoxByxor.TextChanged
+
+        If Pris_mmTextBoxByxor.Text = Nothing Then
+            Pris_umTextBoxByxor.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_umTextBoxByxor.Text = Pris_mmTextBoxByxor.Text * 0.8
+
+    End Sub
+
+    Private Sub Pris_umTextBoxByxor_TextChanged(sender As Object, e As EventArgs) Handles Pris_umTextBoxByxor.TextChanged
+
+        If Pris_umTextBoxByxor.Text = Nothing Then
+            Pris_mmTextBoxByxor.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_mmTextBoxByxor.Text = Pris_umTextBoxByxor.Text * 1.25
+
+    End Sub
+
+    Private Sub Pris_mmTextBoxJacka_TextChanged(sender As Object, e As EventArgs) Handles Pris_mmTextBoxJacka.TextChanged
+
+        If Pris_mmTextBoxJacka.Text = Nothing Then
+            Pris_umTextBoxJacka.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_umTextBoxJacka.Text = Pris_mmTextBoxJacka.Text * 0.8
+
+    End Sub
+
+    Private Sub Pris_umTextBoxJacka_TextChanged(sender As Object, e As EventArgs) Handles Pris_umTextBoxJacka.TextChanged
+
+        If Pris_umTextBoxJacka.Text = Nothing Then
+            Pris_mmTextBoxJacka.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_mmTextBoxJacka.Text = Pris_umTextBoxJacka.Text * 1.25
+
+    End Sub
+
+    Private Sub Pris_mmTextBoxKjol_TextChanged(sender As Object, e As EventArgs) Handles Pris_mmTextBoxKjol.TextChanged
+
+        If Pris_mmTextBoxKjol.Text = Nothing Then
+            Pris_um1TextBoxKjol.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_um1TextBoxKjol.Text = Pris_mmTextBoxKjol.Text * 0.8
+
+    End Sub
+
+    Private Sub Pris_um1TextBoxKjol_TextChanged(sender As Object, e As EventArgs) Handles Pris_um1TextBoxKjol.TextChanged
+
+        If Pris_um1TextBoxKjol.Text = Nothing Then
+            Pris_mmTextBoxKjol.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_mmTextBoxKjol.Text = Pris_um1TextBoxKjol.Text * 1.25
+
+    End Sub
+
+    Private Sub Pris_mmTextBoxKlanning_TextChanged(sender As Object, e As EventArgs) Handles Pris_mmTextBoxKlanning.TextChanged
+
+        If Pris_mmTextBoxKlanning.Text = Nothing Then
+            Pris_umTextBoxKlanning.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_umTextBoxKlanning.Text = Pris_mmTextBoxKlanning.Text * 0.8
+
+    End Sub
+
+    Private Sub Pris_umTextBoxKlanning_TextChanged(sender As Object, e As EventArgs) Handles Pris_umTextBoxKlanning.TextChanged
+
+        If Pris_umTextBoxKlanning.Text = Nothing Then
+            Pris_mmTextBoxKlanning.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_mmTextBoxKlanning.Text = Pris_umTextBoxKlanning.Text * 1.25
+
+    End Sub
+
+    Private Sub Pris_mmTextBoxToppar_TextChanged(sender As Object, e As EventArgs) Handles Pris_mmTextBoxToppar.TextChanged
+
+        If Pris_mmTextBoxToppar.Text = Nothing Then
+            Pris_umTextBoxToppar.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_umTextBoxToppar.Text = Pris_mmTextBoxToppar.Text * 0.8
+
+    End Sub
+
+    Private Sub Pris_umTextBoxToppar_TextChanged(sender As Object, e As EventArgs) Handles Pris_umTextBoxToppar.TextChanged
+
+        If Pris_umTextBoxToppar.Text = Nothing Then
+            Pris_mmTextBoxToppar.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_mmTextBoxToppar.Text = Pris_umTextBoxToppar.Text * 1.25
+
+    End Sub
+
+    Private Sub Pris_mmTextBoxJumpsuit_TextChanged(sender As Object, e As EventArgs) Handles Pris_mmTextBoxJumpsuit.TextChanged
+
+        If Pris_mmTextBoxJumpsuit.Text = Nothing Then
+            Pris_umTextBoxJumpsuit.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_umTextBoxJumpsuit.Text = Pris_mmTextBoxJumpsuit.Text * 0.8
+
+    End Sub
+
+    Private Sub Pris_umTextBoxJumpsuit_TextChanged(sender As Object, e As EventArgs) Handles Pris_umTextBoxJumpsuit.TextChanged
+
+        If Pris_umTextBoxJumpsuit.Text = Nothing Then
+            Pris_mmTextBoxJumpsuit.Text = Nothing
+            Exit Sub
+        End If
+
+        Pris_mmTextBoxJumpsuit.Text = Pris_umTextBoxJumpsuit.Text * 1.25
 
     End Sub
 End Class
