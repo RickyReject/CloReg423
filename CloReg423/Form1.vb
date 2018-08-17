@@ -3382,7 +3382,7 @@ Public Class Form1
 
                         Else
                             Cursor.Current = Cursors.WaitCursor
-                            Directory.CreateDirectory(Path & "ArtikelnrTextBoxAcc.text")
+                            Directory.CreateDirectory("G:\Produktbilder\" & "ArtikelnrTextBoxAcc.text")
                             For Each file In openfiledialog1.FileNames
 
                                 Dim filnamn As String = file.Substring(openfiledialog1.FileName.Length - 12)
@@ -3454,14 +3454,20 @@ Public Class Form1
                             'radera befintliga filer i mappen
                             For Each deleteFile In Directory.GetFiles(Path, "*.*", SearchOption.TopDirectoryOnly)
                                 File.Delete(deleteFile)
+
                             Next
 
                             For Each file In openfiledialog1.FileNames
 
                                 Dim filnamn As String = file.Substring(openfiledialog1.FileName.Length - 12)
 
+                                'System.IO.File.Copy(file, Path & filnamn)
+                                'System.IO.File.Copy(file, "G:\Produktbilder\" & filnamn, True)
+
+
                                 FileCopy(file, Path & filnamn)
                                 FileCopy(file, "G:\Produktbilder\" & filnamn)
+
 
                             Next
                             'test
@@ -3487,7 +3493,7 @@ Public Class Form1
 
                         Else
                             Cursor.Current = Cursors.WaitCursor
-                            Directory.CreateDirectory(Path & ArtikelnrTextBoxByxor.Text)
+                            Directory.CreateDirectory("G:\Produktbilder\" & ArtikelnrTextBoxByxor.Text)
                             For Each file In openfiledialog1.FileNames
 
                                 Dim filnamn As String = file.Substring(openfiledialog1.FileName.Length - 12)
@@ -3592,7 +3598,7 @@ Public Class Form1
 
                         Else
                             Cursor.Current = Cursors.WaitCursor
-                            Directory.CreateDirectory(Path & ArtikelnrTextBoxJacka.Text)
+                            Directory.CreateDirectory("G:\Produktbilder\" & ArtikelnrTextBoxJacka.Text)
                             For Each file In openfiledialog1.FileNames
 
                                 Dim filnamn As String = file.Substring(openfiledialog1.FileName.Length - 12)
@@ -3697,7 +3703,7 @@ Public Class Form1
 
                         Else
                             Cursor.Current = Cursors.WaitCursor
-                            Directory.CreateDirectory(Path & ArtikelnrTextBoxKjol.Text)
+                            Directory.CreateDirectory("G:\Produktbilder\" & ArtikelnrTextBoxKjol.Text)
                             For Each file In openfiledialog1.FileNames
 
                                 Dim filnamn As String = file.Substring(openfiledialog1.FileName.Length - 12)
@@ -3802,7 +3808,7 @@ Public Class Form1
 
                         Else
                             Cursor.Current = Cursors.WaitCursor
-                            Directory.CreateDirectory(Path & ArtikelnrTextBoxKlanning.Text)
+                            Directory.CreateDirectory("G:\Produktbilder\" & ArtikelnrTextBoxKlanning.Text)
                             For Each file In openfiledialog1.FileNames
 
                                 Dim filnamn As String = file.Substring(openfiledialog1.FileName.Length - 12)
@@ -3907,7 +3913,7 @@ Public Class Form1
 
                         Else
                             Cursor.Current = Cursors.WaitCursor
-                            Directory.CreateDirectory(Path & ArtikelnrTextBoxToppar.Text)
+                            Directory.CreateDirectory("G:\Produktbilder\" & ArtikelnrTextBoxToppar.Text)
                             For Each file In openfiledialog1.FileNames
 
                                 Dim filnamn As String = file.Substring(openfiledialog1.FileName.Length - 12)
@@ -4012,7 +4018,7 @@ Public Class Form1
 
                         Else
                             Cursor.Current = Cursors.WaitCursor
-                            Directory.CreateDirectory(Path & ArtikelnrTextBoxJumpsuit.Text)
+                            Directory.CreateDirectory("G:\Produktbilder\" & ArtikelnrTextBoxJumpsuit.Text)
                             For Each file In openfiledialog1.FileNames
 
                                 Dim filnamn As String = file.Substring(openfiledialog1.FileName.Length - 12)
